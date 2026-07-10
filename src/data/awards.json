@@ -1,14 +1,16 @@
 [
   {
-    "title": "活力之星",
-    "organization": "TRAE中文社区",
-    "category": "开发者社区",
-    "date": ""
-  },
-  {
     "title": "Build之星",
     "organization": "TRAE中文社区",
     "category": "开发者社区",
-    "date": ""
+    "date": "",
+    "image": "/assets/glories/TRAE中文社区-Build之星.png"
+  },
+  {
+    "title": "活力之星",
+    "organization": "TRAE中文社区",
+    "category": "开发者社区",
+    "date": "",
+    "image": "/assets/glories/TRAE中文社区-活力之星.png"
   }
 ]

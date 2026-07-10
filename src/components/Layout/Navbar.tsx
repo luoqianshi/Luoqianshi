@@ -1,10 +1,9 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
 const navItems = [
-  { label: '首页', path: '/', anchor: 'top' },
-  { label: '工具站', path: '/tools', anchor: null },
-  { label: '博文站', path: '/blog', anchor: null },
+  { label: '工具站', path: '/tools' },
+  { label: '博文站', path: '/blog' },
 ]
 
 const sectionAnchors = [
@@ -15,6 +14,7 @@ const sectionAnchors = [
 
 export default function Navbar() {
   const location = useLocation()
+  const navigate = useNavigate()
   const [scrolled, setScrolled] = useState(false)
   const isHome = location.pathname === '/'
 
@@ -24,15 +24,16 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const handleHomeNav = (anchor: string | null) => {
-    if (!isHome) {
-      window.location.href = anchor ? `/#${anchor}` : '/'
-      return
-    }
-    if (anchor === 'top' || !anchor) {
+  const scrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  const goHome = () => {
+    if (isHome) {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
-      document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth' })
+      navigate('/')
+      window.scrollTo({ top: 0 })
     }
   }
 
@@ -47,10 +48,13 @@ export default function Navbar() {
       <nav className="max-w-content mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           to="/"
-          onClick={() => handleHomeNav('top')}
+          onClick={(e) => {
+            e.preventDefault()
+            goHome()
+          }}
           className="font-serif font-bold text-lg text-paper-text hover:text-paper-link transition-colors"
         >
-          骆谦实
+          Qianshi Luo
         </Link>
 
         <div className="flex items-center gap-6">
@@ -58,23 +62,21 @@ export default function Navbar() {
             sectionAnchors.map((item) => (
               <button
                 key={item.id}
-                onClick={() => handleHomeNav(item.id)}
+                onClick={() => scrollTo(item.id)}
                 className="text-sm text-paper-muted hover:text-paper-text transition-colors"
               >
                 {item.label}
               </button>
             ))}
-          {navItems
-            .filter((item) => item.label !== '首页')
-            .map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                className="text-sm text-paper-muted hover:text-paper-text transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
+          {navItems.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              className="text-sm text-paper-muted hover:text-paper-text transition-colors"
+            >
+              {item.label}
+            </Link>
+          ))}
         </div>
       </nav>
     </header>

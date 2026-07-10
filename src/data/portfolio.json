@@ -4,7 +4,7 @@
     "description": "PPT 素材积累站，系统整理和收集优质 PPT 模板与设计灵感，助力高效演示文稿创作。",
     "website": "https://luoqianshi.github.io/Accumulate-PPTs/",
     "github": "https://github.com/luoqianshi/Accumulate-PPTs",
-    "image": "/assets/imgs/accumulate-ppts.png",
+    "image": "/assets/websites/Accumulate-PPTs.png",
     "tags": ["GitHub Pages", "素材库", "PPT"]
   },
   {
@@ -12,7 +12,23 @@
     "description": "TRAE AI 创意大赛灵感库，收录大赛创意想法与项目思路，为参赛者提供灵感参考。",
     "website": "https://luoqianshi.github.io/TRAE-AI-Creativity-Competition-Idea-Hall/",
     "github": "https://github.com/luoqianshi/TRAE-AI-Creativity-Competition-Idea-Hall",
-    "image": "/assets/imgs/trae-idea-hall.png",
+    "image": "/assets/websites/TRAE-AICC-Idea-Hall.png",
     "tags": ["GitHub Pages", "AI", "灵感库"]
+  },
+  {
+    "name": "Trae-AI-Creativity-Competition-Demo-Wall",
+    "description": "TRAE AI 创意大赛作品演示墙，汇集并展示各类参赛作品的在线 Demo，方便一览大赛成果。",
+    "website": "https://luoqianshi.github.io/trae-demo-wall/#/",
+    "github": "https://github.com/luoqianshi/trae-demo-wall",
+    "image": "/assets/websites/TRAE-AICC-Demo-Wall.png",
+    "tags": ["GitHub Pages", "AI", "Demo 墙"]
+  },
+  {
+    "name": "Beautiful-Web-Template",
+    "description": "精美网页模板集合，沉淀可复用的前端页面设计与组件范式，助力快速搭建优雅站点。",
+    "website": "https://luoqianshi.github.io/beautiful_web_template/",
+    "github": "https://github.com/luoqianshi/beautiful_web_template",
+    "image": "/assets/websites/Beautiful-Web-Template.png",
+    "tags": ["GitHub Pages", "模板", "前端"]
   }
 ]

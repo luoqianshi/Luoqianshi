@@ -20,4 +20,5 @@ export interface AwardItem {
   organization: string;
   category: string;
   date: string;
+  image: string;
 }

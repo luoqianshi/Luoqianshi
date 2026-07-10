@@ -18,16 +18,22 @@ export default function PortfolioSection() {
             <article className="group flex flex-col md:flex-row gap-6 p-6 rounded-lg border border-paper-border bg-paper-card/50 hover:border-paper-link/40 transition-colors duration-300">
               {/* 缩略图 */}
               <div className="flex-shrink-0 w-full md:w-48 h-32 rounded-md overflow-hidden border border-paper-border bg-paper-card">
-                <img
-                  src={project.image}
-                  alt={project.name}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement
-                    target.style.display = 'none'
-                    target.parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center text-paper-muted text-sm">${project.name}</div>`
-                  }}
-                />
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={project.name}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement
+                      target.style.display = 'none'
+                      target.parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center text-paper-muted text-sm">${project.name}</div>`
+                    }}
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-paper-muted text-sm px-2 text-center">
+                    {project.name}
+                  </div>
+                )}
               </div>
 
               {/* 内容 */}
@@ -38,16 +44,6 @@ export default function PortfolioSection() {
                 <p className="text-paper-muted text-sm leading-relaxed mb-3">
                   {project.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-3">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-xs px-2 py-0.5 rounded border border-paper-border text-paper-muted"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
                 <div className="flex gap-4">
                   <a
                     href={project.website}
