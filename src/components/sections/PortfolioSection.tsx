@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import FadeIn from '../ui/FadeIn'
 import SectionTitle from '../ui/SectionTitle'
 import portfolioData from '../../data/portfolio.json'
@@ -6,6 +7,7 @@ import type { PortfolioItem } from '../../types'
 const projects = portfolioData as PortfolioItem[]
 
 export default function PortfolioSection() {
+  const [active, setActive] = useState<string | null>(null)
   return (
     <section id="portfolio" className="py-16 border-t border-paper-border">
       <FadeIn>
@@ -16,19 +18,25 @@ export default function PortfolioSection() {
         {projects.map((project, index) => (
           <FadeIn key={project.name} delay={index * 100}>
             <article className="group flex flex-col md:flex-row gap-6 p-6 rounded-lg border border-paper-border bg-paper-card/50 hover:border-paper-link/40 transition-colors duration-300">
-              {/* 缩略图 */}
+              {/* 缩略图，点击放大查看 */}
               <div className="flex-shrink-0 w-full md:w-48 h-32 rounded-md overflow-hidden border border-paper-border bg-paper-card">
                 {project.image ? (
-                  <img
-                    src={project.image}
-                    alt={project.name}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement
-                      target.style.display = 'none'
-                      target.parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center text-paper-muted text-sm">${project.name}</div>`
-                    }}
-                  />
+                  <button
+                    type="button"
+                    onClick={() => setActive(project.image!)}
+                    className="block w-full h-full text-left"
+                    aria-label={`放大查看 ${project.name} 截图`}
+                  >
+                    <img
+                      src={project.image}
+                      alt={project.name}
+                      className="w-full h-full object-cover group-hover:scale-[1.05] transition-transform duration-300"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement
+                        target.style.display = 'none'
+                      }}
+                    />
+                  </button>
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-paper-muted text-sm px-2 text-center">
                     {project.name}
@@ -67,6 +75,21 @@ export default function PortfolioSection() {
           </FadeIn>
         ))}
       </div>
+
+      {/* 图片放大查看（点击截图打开原图，模糊背景遮罩） */}
+      {active && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 cursor-zoom-out"
+          onClick={() => setActive(null)}
+        >
+          <img
+            src={active}
+            alt="作品截图"
+            className="max-w-full max-h-full rounded-lg shadow-2xl object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </section>
   )
 }
