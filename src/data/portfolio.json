@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Accumulate-PPTs",
+    "description": "PPT 素材积累站，系统整理和收集优质 PPT 模板与设计灵感，助力高效演示文稿创作。",
+    "website": "https://luoqianshi.github.io/Accumulate-PPTs/",
+    "github": "https://github.com/luoqianshi/Accumulate-PPTs",
+    "image": "/assets/imgs/accumulate-ppts.png",
+    "tags": ["GitHub Pages", "素材库", "PPT"]
+  },
+  {
+    "name": "TRAE-AI-Creativity-Competition-Idea-Hall",
+    "description": "TRAE AI 创意大赛灵感库，收录大赛创意想法与项目思路，为参赛者提供灵感参考。",
+    "website": "https://luoqianshi.github.io/TRAE-AI-Creativity-Competition-Idea-Hall/",
+    "github": "https://github.com/luoqianshi/TRAE-AI-Creativity-Competition-Idea-Hall",
+    "image": "/assets/imgs/trae-idea-hall.png",
+    "tags": ["GitHub Pages", "AI", "灵感库"]
+  }
+]

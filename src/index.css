@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper-bg text-paper-text font-sans antialiased;
+    line-height: 1.8;
+  }
+
+  ::selection {
+    background-color: rgba(61, 90, 128, 0.15);
+  }
+}
+
+@layer components {
+  .link-paper {
+    @apply text-paper-link transition-colors duration-300 hover:text-paper-linkHover;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease, color 0.3s ease;
+  }
+
+  .link-paper:hover {
+    background-size: 100% 1px;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
