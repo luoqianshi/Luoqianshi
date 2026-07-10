@@ -11,7 +11,10 @@ export default function PortfolioSection() {
   return (
     <section id="portfolio" className="py-16 border-t border-paper-border">
       <FadeIn>
-        <SectionTitle id="portfolio">作品集</SectionTitle>
+        <SectionTitle id="portfolio">
+          Portfolio
+          <span className="text-paper-muted text-lg font-normal ml-2">作品集</span>
+        </SectionTitle>
       </FadeIn>
 
       <div className="space-y-8">
@@ -82,6 +85,14 @@ export default function PortfolioSection() {
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 cursor-zoom-out"
           onClick={() => setActive(null)}
         >
+          <button
+            type="button"
+            onClick={() => setActive(null)}
+            aria-label="关闭预览"
+            className="absolute top-4 right-4 z-[60] flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-paper-text text-2xl leading-none shadow-lg hover:bg-white transition-colors"
+          >
+            &times;
+          </button>
           <img
             src={active}
             alt="作品截图"

@@ -2,14 +2,14 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
 const navItems = [
-  { label: '工具站', path: '/tools' },
-  { label: '博文站', path: '/blog' },
+  { label: 'Tools', path: '/tools' },
+  { label: 'Blog', path: '/blog' },
 ]
 
 const sectionAnchors = [
-  { label: '关于', id: 'profile' },
-  { label: '作品', id: 'portfolio' },
-  { label: '获奖', id: 'awards' },
+  { label: 'About', id: 'profile' },
+  { label: 'Portfolio', id: 'portfolio' },
+  { label: 'Awards', id: 'awards' },
 ]
 
 export default function Navbar() {

@@ -12,7 +12,10 @@ export default function AwardsSection() {
   return (
     <section id="awards" className="py-16 border-t border-paper-border">
       <FadeIn>
-        <SectionTitle id="awards">获奖情况</SectionTitle>
+        <SectionTitle id="awards">
+          Awards
+          <span className="text-paper-muted text-lg font-normal ml-2">获奖情况</span>
+        </SectionTitle>
       </FadeIn>
 
       {/* 卡片画廊 */}
