@@ -12,7 +12,7 @@ export default function PortfolioSection() {
     <section id="portfolio" className="py-16 border-t border-paper-border">
       <FadeIn>
         <SectionTitle id="portfolio">
-          Portfolio
+          Products
           <span className="text-paper-muted text-lg font-normal ml-2">作品集</span>
         </SectionTitle>
       </FadeIn>

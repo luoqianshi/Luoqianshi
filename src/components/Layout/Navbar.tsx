@@ -8,7 +8,7 @@ const navItems = [
 
 const sectionAnchors = [
   { label: 'About', id: 'profile' },
-  { label: 'Portfolio', id: 'portfolio' },
+  { label: 'Products', id: 'portfolio' },
   { label: 'Awards', id: 'awards' },
 ]
 
