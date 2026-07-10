@@ -48,6 +48,15 @@ PPT 素材积累站，系统整理和收集优质 PPT 模板与设计灵感，�
 - Website: https://luoqianshi.github.io/beautiful_web_template/
 - GitHub: https://github.com/luoqianshi/beautiful_web_template
 
+### my-leetcode-blog
+
+LeetCode 题解博客，记录算法刷题思路与代码实现，沉淀个人解题笔记与复盘。
+
+![my-leetcode-blog](public/assets/websites/my-leetcode-blog.png)
+
+- Website: https://luoqianshi.github.io/my-leetcode-blog/
+- GitHub: https://github.com/luoqianshi/my-leetcode-blog
+
 ---
 
 ## Awards 获奖情况
