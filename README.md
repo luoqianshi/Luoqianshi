@@ -57,6 +57,15 @@ LeetCode 题解博客，记录算法刷题思路与代码实现，沉淀个人�
 - Website: https://luoqianshi.github.io/my-leetcode-blog/
 - GitHub: https://github.com/luoqianshi/my-leetcode-blog
 
+### TRAE-AICC-Idea-Incubator
+
+2026 TRAE AI创造力大赛创意孵化站，对参赛创意进行集中展示、打磨与持续迭代，陪伴灵感从想法到落地。
+
+![TRAE-AICC-Idea-Incubator](public/assets/websites/TRAE-AICC-Idea-Incubator.png)
+
+- Website: https://luoqianshi.github.io/trae-aicc-idea-incubator/
+- GitHub: https://github.com/luoqianshi/trae-aicc-idea-incubator
+
 ---
 
 ## Awards 获奖情况

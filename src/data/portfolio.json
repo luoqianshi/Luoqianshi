@@ -14,6 +14,13 @@
     "image": "./assets/websites/TRAE-AICC-Demo-Wall.png"
   },
   {
+    "name": "TRAE-AICC-Idea-Incubator",
+    "description": "2026 TRAE AI创造力大赛创意孵化站，对参赛创意进行集中展示、打磨与持续迭代，陪伴灵感从想法到落地。",
+    "website": "https://luoqianshi.github.io/trae-aicc-idea-incubator/",
+    "github": "https://github.com/luoqianshi/trae-aicc-idea-incubator",
+    "image": "./assets/websites/TRAE-AICC-Idea-Incubator.png"
+  },
+  {
     "name": "Accumulate-PPTs",
     "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
     "website": "https://luoqianshi.github.io/Accumulate-PPTs/",
