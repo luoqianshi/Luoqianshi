@@ -14,6 +14,8 @@ AI Builder / AI Product Manager / AI Research Engineer
 
 ### Trae-AI-Creativity-Competition-Demo-Wall
 
+🏆 **TRAE AI创造力大赛Top 2000作品**
+
 TRAE AI 创意大赛作品演示墙，汇集并展示各类参赛作品的在线 Demo，方便一览大赛成果。
 
 ![Trae-AI-Creativity-Competition-Demo-Wall](public/assets/websites/TRAE-AICC-Demo-Wall.png)
