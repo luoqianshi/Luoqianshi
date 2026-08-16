@@ -6,13 +6,17 @@ export interface ProfileData {
   links: Record<string, { label: string; url: string }>;
 }
 
+export type PortfolioCategory = 'featured' | 'others' | 'knowledge';
+
 export interface PortfolioItem {
   name: string;
   description: string;
   website: string;
   github: string;
   image: string;
-  tags: string[];
+  category: PortfolioCategory;
+  badge?: string;
+  tags?: string[];
 }
 
 export interface AwardItem {

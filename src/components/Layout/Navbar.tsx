@@ -9,6 +9,8 @@ const navItems = [
 const sectionAnchors = [
   { label: 'About', id: 'profile' },
   { label: 'Products', id: 'portfolio' },
+  { label: 'Others', id: 'others' },
+  { label: 'Knowledge', id: 'knowledge' },
   { label: 'Awards', id: 'awards' },
 ]
 

@@ -1,44 +1,67 @@
 [
   {
-    "name": "TRAE-AI-Creativity-Competition-Idea-Hall",
-    "description": "2026 TRAE AI创造力大赛灵感库，收录大赛创意想法与项目思路，为参赛者提供灵感参考。",
-    "website": "https://luoqianshi.github.io/TRAE-AI-Creativity-Competition-Idea-Hall/",
-    "github": "https://github.com/luoqianshi/TRAE-AI-Creativity-Competition-Idea-Hall",
-    "image": "./assets/websites/TRAE-AICC-Idea-Hall.png"
-  },
-  {
     "name": "Trae-AI-Creativity-Competition-Demo-Wall",
     "description": "2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。",
     "website": "https://luoqianshi.github.io/trae-demo-wall/#/",
     "github": "https://github.com/luoqianshi/trae-demo-wall",
-    "image": "./assets/websites/TRAE-AICC-Demo-Wall.png"
-  },
-  {
-    "name": "TRAE-AICC-Idea-Incubator",
-    "description": "2026 TRAE AI创造力大赛创意孵化站，对参赛创意进行集中展示、打磨与持续迭代，陪伴灵感从想法到落地。",
-    "website": "https://luoqianshi.github.io/trae-aicc-idea-incubator/",
-    "github": "https://github.com/luoqianshi/trae-aicc-idea-incubator",
-    "image": "./assets/websites/TRAE-AICC-Idea-Incubator.png"
-  },
-  {
-    "name": "Accumulate-PPTs",
-    "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
-    "website": "https://luoqianshi.github.io/Accumulate-PPTs/",
-    "github": "https://github.com/luoqianshi/Accumulate-PPTs",
-    "image": "./assets/websites/Accumulate-PPTs.png"
+    "image": "./assets/websites/TRAE-AICC-Demo-Wall.png",
+    "category": "featured",
+    "badge": "TRAE AI创造力大赛Top 2000作品"
   },
   {
     "name": "Beautiful-Web-Template",
     "description": "精美网页模板集合，沉淀可复用的前端页面设计与组件范式，助力快速搭建优雅站点。",
     "website": "https://luoqianshi.github.io/beautiful_web_template/",
     "github": "https://github.com/luoqianshi/beautiful_web_template",
-    "image": "./assets/websites/Beautiful-Web-Template.png"
+    "image": "./assets/websites/Beautiful-Web-Template.png",
+    "category": "featured"
+  },
+  {
+    "name": "Accumulate-PPTs",
+    "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
+    "website": "https://luoqianshi.github.io/Accumulate-PPTs/",
+    "github": "https://github.com/luoqianshi/Accumulate-PPTs",
+    "image": "./assets/websites/Accumulate-PPTs.png",
+    "category": "featured"
+  },
+  {
+    "name": "TRAE-AI-Creativity-Competition-Idea-Hall",
+    "description": "2026 TRAE AI创造力大赛灵感库，收录大赛创意想法与项目思路，为参赛者提供灵感参考。",
+    "website": "https://luoqianshi.github.io/TRAE-AI-Creativity-Competition-Idea-Hall/",
+    "github": "https://github.com/luoqianshi/TRAE-AI-Creativity-Competition-Idea-Hall",
+    "image": "./assets/websites/TRAE-AICC-Idea-Hall.png",
+    "category": "others"
+  },
+  {
+    "name": "TRAE-AICC-Idea-Incubator",
+    "description": "2026 TRAE AI创造力大赛创意孵化站，对参赛创意进行集中展示、打磨与持续迭代，陪伴灵感从想法到落地。",
+    "website": "https://luoqianshi.github.io/trae-aicc-idea-incubator/",
+    "github": "https://github.com/luoqianshi/trae-aicc-idea-incubator",
+    "image": "./assets/websites/TRAE-AICC-Idea-Incubator.png",
+    "category": "others"
   },
   {
     "name": "my-leetcode-blog",
     "description": "收集Python题解的Leet Code Hot 100题解网站，方便快速查阅学习。",
     "website": "https://luoqianshi.github.io/my-leetcode-blog/",
     "github": "https://github.com/luoqianshi/my-leetcode-blog",
-    "image": "./assets/websites/my-leetcode-blog.png"
+    "image": "./assets/websites/my-leetcode-blog.png",
+    "category": "knowledge"
+  },
+  {
+    "name": "ai-knowledge-base",
+    "description": "基于《人工智能：现代方法（第4版）》的 VitePress 教学电子书，28章系统精讲，金字塔原理结构化呈现。",
+    "website": "https://luoqianshi.github.io/ai-knowledge-base/",
+    "github": "https://github.com/luoqianshi/ai-knowledge-base",
+    "image": "./assets/websites/ai-knowledge-base.png",
+    "category": "knowledge"
+  },
+  {
+    "name": "LLM-Agent-Orange-Book",
+    "description": "系统收集整理关于大语言模型智能体的定义、框架、研究问题与前沿方向的开放研究资料集。",
+    "website": "https://luoqianshi.github.io/LLM-Agent-Orange-Book/",
+    "github": "https://github.com/luoqianshi/LLM-Agent-Orange-Book",
+    "image": "./assets/websites/LLM-Agent-Orange-Book.png",
+    "category": "knowledge"
   }
 ]
