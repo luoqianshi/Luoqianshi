@@ -1,7 +1,7 @@
 # Qianshi Luo · 骆谦实
 
 AI Builder / AI Product Manager / AI Research Engineer
-> TRAE社区管理、TRAE AI 创造力大赛Top2000获得者、TRAE中文社区Build之星、活力之星<br>
+> TRAE中文论坛管理、TRAE AI 创造力大赛Top2000获得者、TRAE中文社区Build之星、活力之星<br>
 > Think what AI can't. Build what AI can.
 
 - GitHub: https://github.com/luoqianshi
