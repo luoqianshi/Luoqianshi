@@ -17,11 +17,11 @@
     "category": "featured"
   },
   {
-    "name": "Accumulate-PPTs",
+    "name": "Paper-Master",
     "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
-    "website": "https://luoqianshi.github.io/Accumulate-PPTs/",
-    "github": "https://github.com/luoqianshi/Accumulate-PPTs",
-    "image": "./assets/websites/Accumulate-PPTs.png",
+    "website": "https://luoqianshi.github.io/Paper-Master",
+    "github": "https://github.com/luoqianshi/Paper-Master",
+    "image": "./assets/websites/Paper-Master.png",
     "category": "featured"
   },
   {

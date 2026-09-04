@@ -32,14 +32,14 @@ TRAE AI 创意大赛作品演示墙，汇集并展示各类参赛作品的在线
 - Website: https://luoqianshi.github.io/beautiful_web_template/
 - GitHub: https://github.com/luoqianshi/beautiful_web_template
 
-### Accumulate-PPTs
+### Paper-Master
 
-PPT 素材积累站，系统整理和收集优质 PPT 模板与设计灵感，助力高效演示文稿创作。
+一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。
 
-![Accumulate-PPTs](public/assets/websites/Accumulate-PPTs.png)
+![Paper-Master](public/assets/websites/Paper-Master.png)
 
-- Website: https://luoqianshi.github.io/Accumulate-PPTs/
-- GitHub: https://github.com/luoqianshi/Accumulate-PPTs
+- Website: https://luoqianshi.github.io/Paper-Master
+- GitHub: https://github.com/luoqianshi/Paper-Master
 
 ---
 
