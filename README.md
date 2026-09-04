@@ -23,6 +23,15 @@ AI Builder / AI Product Manager / AI Research Engineer
 - Website: https://luoqianshi.github.io/trae-demo-wall/#/
 - GitHub: https://github.com/luoqianshi/trae-demo-wall
 
+### Paper-Master
+
+一款AI Agent原生的论文管理知识库，内置支持将PDF论文一键转化为图文并茂的Markdown博客/HTML幻灯片的SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。
+
+![Paper-Master](public/assets/websites/Paper-Master.png)
+
+- Website: https://luoqianshi.github.io/Paper-Master
+- GitHub: https://github.com/luoqianshi/Paper-Master
+
 ### Beautiful-Web-Template
 
 精美网页模板集合，沉淀可复用的前端页面设计与组件范式，助力快速搭建优雅站点。
@@ -31,15 +40,6 @@ AI Builder / AI Product Manager / AI Research Engineer
 
 - Website: https://luoqianshi.github.io/beautiful_web_template/
 - GitHub: https://github.com/luoqianshi/beautiful_web_template
-
-### Paper-Master
-
-一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。
-
-![Paper-Master](public/assets/websites/Paper-Master.png)
-
-- Website: https://luoqianshi.github.io/Paper-Master
-- GitHub: https://github.com/luoqianshi/Paper-Master
 
 ---
 
@@ -78,19 +78,19 @@ TRAE AI 创意大赛灵感库，收录大赛创意想法与项目思路，为参
   </tr>
 </table>
 
-### my-leetcode-blog
-
-收集Python题解的Leet Code Hot 100题解网站，方便快速查阅学习。
-
-- Website: https://luoqianshi.github.io/my-leetcode-blog/
-- GitHub: https://github.com/luoqianshi/my-leetcode-blog
-
 ### ai-knowledge-base
 
 基于《人工智能：现代方法（第4版）》的 VitePress 教学电子书，28章系统精讲，金字塔原理结构化呈现。
 
 - Website: https://luoqianshi.github.io/ai-knowledge-base/
 - GitHub: https://github.com/luoqianshi/ai-knowledge-base
+
+### my-leetcode-blog
+
+收集Python题解的Leet Code Hot 100题解网站，方便快速查阅学习。
+
+- Website: https://luoqianshi.github.io/my-leetcode-blog/
+- GitHub: https://github.com/luoqianshi/my-leetcode-blog
 
 ### LLM-Agent-Orange-Book
 
