@@ -16,7 +16,7 @@ AI Builder / AI Product Manager / AI Research Engineer
 
 🏆 **TRAE AI创造力大赛Top 2000作品**
 
-TRAE AI 创意大赛作品演示墙，汇集并展示各类参赛作品的在线 Demo，方便一览大赛成果。
+2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。
 
 ![Trae-AI-Creativity-Competition-Demo-Wall](public/assets/websites/TRAE-AICC-Demo-Wall.png)
 
@@ -80,7 +80,7 @@ TRAE AI 创意大赛灵感库，收录大赛创意想法与项目思路，为参
 
 ### my-leetcode-blog
 
-LeetCode 题解博客，记录算法刷题思路与代码实现，沉淀个人解题笔记与复盘。
+收集Python题解的Leet Code Hot 100题解网站，方便快速查阅学习。
 
 - Website: https://luoqianshi.github.io/my-leetcode-blog/
 - GitHub: https://github.com/luoqianshi/my-leetcode-blog
