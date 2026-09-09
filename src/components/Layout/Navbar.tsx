@@ -1,11 +1,6 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
-const navItems = [
-  { label: 'Tools', path: '/tools' },
-  { label: 'Blog', path: '/blog' },
-]
-
 const sectionAnchors = [
   { label: 'About', id: 'profile' },
   { label: 'Products', id: 'portfolio' },
@@ -70,15 +65,6 @@ export default function Navbar() {
                 {item.label}
               </button>
             ))}
-          {navItems.map((item) => (
-            <Link
-              key={item.path}
-              to={item.path}
-              className="text-sm text-paper-muted hover:text-paper-text transition-colors"
-            >
-              {item.label}
-            </Link>
-          ))}
         </div>
       </nav>
     </header>
