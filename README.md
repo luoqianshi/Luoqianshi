@@ -5,7 +5,7 @@ AI Builder / AI Product Manager / AI Research Engineer
 > Think what AI can't. Build what AI can.
 
 - GitHub: https://github.com/luoqianshi
-- TRAE中文社区: https://forum.trae.cn/u/%E9%AA%86%E8%B0%A6%E5%AE%9E/preferences/account
+- TRAE中文社区: https://forum.trae.cn/u/%E9%AA%86%E8%B0%A6%E5%AE%9E/summary
 - CSDN: https://blog.csdn.net/m0_54524462
 
 ---
