@@ -1,4 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <rect width="100" height="100" rx="12" fill="#faf8f5"/>
-  <text x="50" y="70" font-size="56" font-family="serif" font-weight="bold" text-anchor="middle" fill="#2b2b2b">骆</text>
+  <defs>
+    <!-- 五彩斑斓的斜向渐变：朱红 → 琥珀 → 青绿 → 群青 → 紫罗兰 -->
+    <linearGradient id="slash" x1="28" y1="80" x2="72" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0512f"/>
+      <stop offset="0.28" stop-color="#e8a13c"/>
+      <stop offset="0.52" stop-color="#3fae8b"/>
+      <stop offset="0.76" stop-color="#3d6fb4"/>
+      <stop offset="1" stop-color="#8a5bb8"/>
+    </linearGradient>
+    <!-- 纸张微光泽 -->
+    <radialGradient id="paper" cx="0.5" cy="0.38" r="0.85">
+      <stop offset="0" stop-color="#fdfcfa"/>
+      <stop offset="1" stop-color="#f5f1e8"/>
+    </radialGradient>
+    <clipPath id="frame">
+      <rect width="100" height="100" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="100" height="100" fill="url(#paper)"/>
+    <!-- 细网格，呼应模板的编辑纸感 -->
+    <g stroke="#2b2b2b" stroke-opacity="0.05" stroke-width="0.8">
+      <line x1="25" y1="0" x2="25" y2="100"/>
+      <line x1="50" y1="0" x2="50" y2="100"/>
+      <line x1="75" y1="0" x2="75" y2="100"/>
+      <line x1="0" y1="25" x2="100" y2="25"/>
+      <line x1="0" y1="50" x2="100" y2="50"/>
+      <line x1="0" y1="75" x2="100" y2="75"/>
+    </g>
+    <!-- 斜杠的浅色衬影，增加层次 -->
+    <line x1="36" y1="76" x2="72" y2="28" stroke="#2b2b2b" stroke-opacity="0.08" stroke-width="19" stroke-linecap="round"/>
+    <!-- 主体：彩色斜杠 / -->
+    <line x1="33" y1="73" x2="69" y2="25" stroke="url(#slash)" stroke-width="15" stroke-linecap="round"/>
+    <!-- 斜杠上的高光细线 -->
+    <line x1="30.5" y1="70" x2="66.5" y2="22" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 边框与朱红点缀，呼应模板的红色星标 -->
+  <rect x="0.5" y="0.5" width="99" height="99" rx="13.5" fill="none" stroke="#2b2b2b" stroke-opacity="0.12"/>
+  <circle cx="14" cy="14" r="3.2" fill="#e0512f"/>
 </svg>
