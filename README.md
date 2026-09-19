@@ -40,6 +40,15 @@ AI Builder / AI Application Engineer
 - Website: https://luoqianshi.github.io/trae-demo-wall/#/
 - GitHub: https://github.com/luoqianshi/trae-demo-wall
 
+### Oh-My-Jobs-Master
+
+一款可以嵌入 AI Agent（例如 Trae）的个人秋招工作台，零依赖单文件实现，覆盖投递列表、进度看板、公司信息、邮箱收件与数据管理五大模块；在微信里把秋招推文转发给 Trae，Agent 即可自动解析并写入投递记录，配合脚本每日同步求职邮箱通知。
+
+![Oh-My-Jobs-Master](public/assets/websites/Oh-My-Jobs-Master.png)
+
+- Website: https://luoqianshi.github.io/Oh-My-Jobs-Master/
+- GitHub: https://github.com/luoqianshi/Oh-My-Jobs-Master
+
 ---
 
 ## Others 其它作品

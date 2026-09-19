@@ -25,6 +25,14 @@
     "badge": "TRAE AI创造力大赛Top 2000作品"
   },
   {
+    "name": "Oh-My-Jobs-Master",
+    "description": "一款可嵌入 Trae 等 AI Agent 的零依赖单文件秋招投递管理工作台，覆盖投递列表、进度看板、公司信息、邮箱收件与数据管理五大模块，转发秋招推文即可自动解析录入投递记录。",
+    "website": "https://luoqianshi.github.io/Oh-My-Jobs-Master/",
+    "github": "https://github.com/luoqianshi/Oh-My-Jobs-Master",
+    "image": "./assets/websites/Oh-My-Jobs-Master.png",
+    "category": "featured"
+  },
+  {
     "name": "TRAE-AI-Creativity-Competition-Idea-Hall",
     "description": "2026 TRAE AI创造力大赛灵感库，收录大赛创意想法与项目思路，为参赛者提供灵感参考。",
     "website": "https://luoqianshi.github.io/TRAE-AI-Creativity-Competition-Idea-Hall/",
