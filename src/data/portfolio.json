@@ -1,12 +1,11 @@
 [
   {
-    "name": "Trae-AI-Creativity-Competition-Demo-Wall",
-    "description": "2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。",
-    "website": "https://luoqianshi.github.io/trae-demo-wall/#/",
-    "github": "https://github.com/luoqianshi/trae-demo-wall",
-    "image": "./assets/websites/TRAE-AICC-Demo-Wall.png",
-    "category": "featured",
-    "badge": "TRAE AI创造力大赛Top 2000作品"
+    "name": "Paper-Master",
+    "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
+    "website": "https://luoqianshi.github.io/Paper-Master",
+    "github": "https://github.com/luoqianshi/Paper-Master",
+    "image": "./assets/websites/Paper-Master.png",
+    "category": "featured"
   },
   {
     "name": "Beautiful-Web-Template",
@@ -17,12 +16,13 @@
     "category": "featured"
   },
   {
-    "name": "Paper-Master",
-    "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
-    "website": "https://luoqianshi.github.io/Paper-Master",
-    "github": "https://github.com/luoqianshi/Paper-Master",
-    "image": "./assets/websites/Paper-Master.png",
-    "category": "featured"
+    "name": "Trae-AI-Creativity-Competition-Demo-Wall",
+    "description": "2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。",
+    "website": "https://luoqianshi.github.io/trae-demo-wall/#/",
+    "github": "https://github.com/luoqianshi/trae-demo-wall",
+    "image": "./assets/websites/TRAE-AICC-Demo-Wall.png",
+    "category": "featured",
+    "badge": "TRAE AI创造力大赛Top 2000作品"
   },
   {
     "name": "TRAE-AI-Creativity-Competition-Idea-Hall",
