@@ -1,8 +1,7 @@
 # Qianshi Luo · 骆谦实
 
-AI Builder / AI Product Manager / AI Research Engineer
-> TRAE中文论坛管理、TRAE AI 创造力大赛Top2000获得者、TRAE中文社区Build之星、活力之星<br>
-> Think what AI can't. Build what AI can.
+AI Builder / AI Application Engineer
+> TRAE中文论坛管理、TRAE中文社区Build之星、活力之星
 
 - GitHub: https://github.com/luoqianshi
 - TRAE中文社区: https://forum.trae.cn/u/%E9%AA%86%E8%B0%A6%E5%AE%9E/preferences/account
@@ -11,17 +10,6 @@ AI Builder / AI Product Manager / AI Research Engineer
 ---
 
 ## Products 作品集
-
-### Trae-AI-Creativity-Competition-Demo-Wall
-
-🏆 **TRAE AI创造力大赛Top 2000作品**
-
-2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。
-
-![Trae-AI-Creativity-Competition-Demo-Wall](public/assets/websites/TRAE-AICC-Demo-Wall.png)
-
-- Website: https://luoqianshi.github.io/trae-demo-wall/#/
-- GitHub: https://github.com/luoqianshi/trae-demo-wall
 
 ### Paper-Master
 
@@ -40,6 +28,17 @@ AI Builder / AI Product Manager / AI Research Engineer
 
 - Website: https://luoqianshi.github.io/beautiful_web_template/
 - GitHub: https://github.com/luoqianshi/beautiful_web_template
+
+### Trae-AI-Creativity-Competition-Demo-Wall
+
+🏆 **TRAE AI创造力大赛Top 2000作品**
+
+2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。
+
+![Trae-AI-Creativity-Competition-Demo-Wall](public/assets/websites/TRAE-AICC-Demo-Wall.png)
+
+- Website: https://luoqianshi.github.io/trae-demo-wall/#/
+- GitHub: https://github.com/luoqianshi/trae-demo-wall
 
 ---
 
@@ -100,20 +99,3 @@ TRAE AI 创意大赛灵感库，收录大赛创意想法与项目思路，为参
 - GitHub: https://github.com/luoqianshi/LLM-Agent-Orange-Book
 
 ---
-
-## Awards 获奖情况
-
-<table align="center">
-  <tr>
-    <th align="center">Build之星·TRAE中文社区</th>
-    <th align="center">活力之星·TRAE中文社区</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="public/assets/glories/TRAE中文社区-Build之星.png" width="300" alt="Build之星"></td>
-    <td align="center"><img src="public/assets/glories/TRAE中文社区-活力之星.png" width="300" alt="活力之星"></td>
-  </tr>
-  <tr>
-    <td align="center">开发者社区</td>
-    <td align="center">开发者社区</td>
-  </tr>
-</table>
