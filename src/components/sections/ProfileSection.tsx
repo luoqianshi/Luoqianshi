@@ -46,8 +46,10 @@ export default function ProfileSection() {
           {/* 个人照片（右侧，较大圆角矩形展示整张照片） */}
           <div className="flex-shrink-0">
             <img
-              src="./assets/imgs/me.jpg"
+              src="./assets/imgs/me.webp"
               alt={`${profile.name.zh} 的个人照片`}
+              loading="eager"
+              decoding="async"
               className="w-40 h-52 sm:w-44 sm:h-60 rounded-2xl object-cover border border-paper-border grayscale-[10%] hover:grayscale-0 transition-all duration-500 shadow-sm"
             />
           </div>

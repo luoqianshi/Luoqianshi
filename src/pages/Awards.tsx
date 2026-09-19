@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import FadeIn from '../components/ui/FadeIn'
 import Lightbox, { type LightboxImage } from '../components/ui/Lightbox'
+import ProgressiveImage from '../components/ui/ProgressiveImage'
 import SectionTitle from '../components/ui/SectionTitle'
 import gloriesData from '../data/glories.json'
 import type { GloryData } from '../types'
@@ -38,6 +39,7 @@ export default function Awards() {
         map.set(`${item.id}#${i}`, list.length)
         list.push({
           path: img.path,
+          thumb: img.thumb,
           caption: img.caption,
           label: `${item.id} · ${item.title}`,
         })
@@ -161,15 +163,13 @@ export default function Awards() {
                         aria-label={`放大查看 ${item.title} 证书`}
                         className="block bg-paper-card overflow-hidden"
                       >
-                        <img
-                          src={img.path}
+                        <ProgressiveImage
+                          src={img.thumb}
+                          lqip={img.lqip}
                           alt={`${item.title} 证书`}
-                          loading="lazy"
-                          className="w-full h-44 object-contain p-3 group-hover:scale-[1.02] transition-transform duration-300"
-                          onError={(e) => {
-                            const target = e.target as HTMLImageElement
-                            target.style.display = 'none'
-                          }}
+                          guard
+                          className="h-44 w-full"
+                          imgClassName="object-contain p-3 group-hover:scale-[1.02] transition-transform duration-300"
                         />
                       </button>
                     ))}
@@ -211,14 +211,18 @@ export default function Awards() {
         </section>
       ))}
 
-      <p className="pb-16 text-xs text-paper-muted/80 border-t border-paper-border pt-6">
+      <p className="pb-16 text-xs text-paper-muted/80 border-t border-paper-border pt-6 leading-relaxed">
         材料整理口径：分类 — 等级 — 时间；证书图片源自《{data.source.replace(/\.html$/, '')}》。
+        <br />
+        证书为个人私密材料，已转为 WebP 渐进式加载（列表用缩略图、放大时才取原图），并禁用右键另存与拖拽下载、放大视图叠加水印；
+        如需核验原件，欢迎直接与我联系。
       </p>
 
       {active !== null && (
         <Lightbox
           images={gallery}
           index={active}
+          secure
           onClose={() => setActive(null)}
           onIndexChange={setActive}
         />

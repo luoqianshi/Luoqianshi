@@ -1,7 +1,10 @@
-import { useCallback, useEffect } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 export interface LightboxImage {
+  /** 高清原图 */
   path: string
+  /** 列表已缓存的缩略图，放大时先显示它再淡入原图 */
+  thumb?: string
   caption: string
   label: string
 }
@@ -9,12 +12,22 @@ export interface LightboxImage {
 interface LightboxProps {
   images: LightboxImage[]
   index: number
+  /** 证书等私密图片：禁用右键与拖拽保存，并叠加水印 */
+  secure?: boolean
   onClose: () => void
   onIndexChange: (index: number) => void
 }
 
-/** 证书放大查看：支持左右切换与 Esc 关闭 */
-export default function Lightbox({ images, index, onClose, onIndexChange }: LightboxProps) {
+/** 证书放大查看：缩略图 -> 原图渐进加载，支持左右切换与 Esc 关闭 */
+export default function Lightbox({
+  images,
+  index,
+  secure = false,
+  onClose,
+  onIndexChange,
+}: LightboxProps) {
+  const [loaded, setLoaded] = useState(false)
+
   const step = useCallback(
     (delta: number) => {
       if (images.length === 0) return
@@ -22,6 +35,10 @@ export default function Lightbox({ images, index, onClose, onIndexChange }: Ligh
     },
     [images.length, index, onIndexChange]
   )
+
+  useEffect(() => {
+    setLoaded(false)
+  }, [index])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -40,20 +57,60 @@ export default function Lightbox({ images, index, onClose, onIndexChange }: Ligh
   const current = images[index]
   if (!current) return null
 
+  const placeholder = current.thumb
+  const guardProps = secure
+    ? { draggable: false, onContextMenu: (e: React.MouseEvent) => e.preventDefault() }
+    : {}
+  const guardClass = secure ? 'img-guard' : ''
+
   return (
     <div
       className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black/70 p-4 cursor-zoom-out"
       onClick={onClose}
+      onContextMenu={secure ? (e) => e.preventDefault() : undefined}
       role="dialog"
       aria-modal="true"
       aria-label={current.label}
     >
-      <img
-        src={current.path}
-        alt={current.label}
-        className="max-w-full max-h-[80vh] rounded-lg shadow-2xl object-contain bg-white"
-        onClick={(e) => e.stopPropagation()}
-      />
+      <div className="relative" onClick={(e) => e.stopPropagation()}>
+        {placeholder ? (
+          <>
+            <img
+              src={placeholder}
+              alt=""
+              aria-hidden="true"
+              {...guardProps}
+              className={`block max-w-full max-h-[76vh] object-contain rounded-lg bg-white blur-[3px] transition-opacity duration-500 ${
+                loaded ? 'opacity-0' : 'opacity-100'
+              } ${guardClass}`}
+            />
+            <img
+              src={current.path}
+              alt={current.label}
+              loading="eager"
+              decoding="async"
+              onLoad={() => setLoaded(true)}
+              {...guardProps}
+              className={`absolute inset-0 h-full w-full object-contain rounded-lg bg-white transition-opacity duration-500 ${
+                loaded ? 'opacity-100' : 'opacity-0'
+              } ${guardClass}`}
+            />
+          </>
+        ) : (
+          <img
+            src={current.path}
+            alt={current.label}
+            loading="eager"
+            decoding="async"
+            onLoad={() => setLoaded(true)}
+            {...guardProps}
+            className={`block max-w-full max-h-[76vh] object-contain rounded-lg bg-white shadow-2xl transition-opacity duration-500 ${
+              loaded ? 'opacity-100' : 'opacity-0'
+            } ${guardClass}`}
+          />
+        )}
+        {secure && <span aria-hidden="true" className="cert-watermark absolute inset-0 rounded-lg" />}
+      </div>
 
       <div
         className="mt-4 max-w-2xl text-center text-sm text-white/85 cursor-default"
@@ -62,6 +119,7 @@ export default function Lightbox({ images, index, onClose, onIndexChange }: Ligh
         <p className="font-medium">{current.label}</p>
         {current.caption && <p className="mt-1 text-white/60">{current.caption}</p>}
         <p className="mt-1 text-xs text-white/45">
+          {loaded ? '' : '原图加载中 · '}
           {index + 1} / {images.length}
         </p>
       </div>

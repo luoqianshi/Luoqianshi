@@ -4,72 +4,90 @@
     "description": "一款将 PDF 论文一键转化为图文并茂 HTML 幻灯片的 SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。",
     "website": "https://luoqianshi.github.io/Paper-Master",
     "github": "https://github.com/luoqianshi/Paper-Master",
-    "image": "./assets/websites/Paper-Master.png",
-    "category": "featured"
+    "image": "./assets/websites/Paper-Master.webp",
+    "category": "featured",
+    "thumb": "./assets/websites/Paper-Master.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoYAAsAPt1cp0yopSOiMAgBEBuJZwDLLCHfNUaoIdQkwAD+83nz3KRo8uBkxtw2zeIEDIsLzYsms7fra+qxi4n9cm6ShQAA"
   },
   {
     "name": "Beautiful-Web-Template",
     "description": "精美网页模板集合，沉淀可复用的前端页面设计与组件范式，助力快速搭建优雅站点。",
     "website": "https://luoqianshi.github.io/beautiful_web_template/",
     "github": "https://github.com/luoqianshi/beautiful_web_template",
-    "image": "./assets/websites/Beautiful-Web-Template.png",
-    "category": "featured"
+    "image": "./assets/websites/Beautiful-Web-Template.webp",
+    "category": "featured",
+    "thumb": "./assets/websites/Beautiful-Web-Template.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwBACdASoYAA4APt1apkyopSOiMAgBEBuJZQAAW+3E8R5T1TTuRtOKFAAA/vHIznDNWVLf705EmC67lAB6OvdPvGyYj921/YeghHqm+TZjKnAPC2Xs2zAm/6S2qzN37DOEg1DwkgAAAA=="
   },
   {
     "name": "Trae-AI-Creativity-Competition-Demo-Wall",
     "description": "2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。",
     "website": "https://luoqianshi.github.io/trae-demo-wall/#/",
     "github": "https://github.com/luoqianshi/trae-demo-wall",
-    "image": "./assets/websites/TRAE-AICC-Demo-Wall.png",
+    "image": "./assets/websites/TRAE-AICC-Demo-Wall.webp",
     "category": "featured",
-    "badge": "TRAE AI创造力大赛Top 2000作品"
+    "badge": "TRAE AI创造力大赛Top 2000作品",
+    "thumb": "./assets/websites/TRAE-AICC-Demo-Wall.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwAwCdASoYAAsAPt1cp00opSOiMAgBEBuJZQCuHCHgXsM7txwnAAD+0Nv2kX+xO0AYRlm8u7P8PE1BYR5DcGEC+l1vzRxcZtdcYRoAlwnX0x2N0d3GPZsIUMMEt703urPWTj+e2sLaUEmAAAA="
   },
   {
     "name": "Oh-My-Jobs-Master",
     "description": "一款可嵌入 Trae 等 AI Agent 的零依赖单文件秋招投递管理工作台，覆盖投递列表、进度看板、公司信息、邮箱收件与数据管理五大模块，转发秋招推文即可自动解析录入投递记录。",
     "website": "https://luoqianshi.github.io/Oh-My-Jobs-Master/",
     "github": "https://github.com/luoqianshi/Oh-My-Jobs-Master",
-    "image": "./assets/websites/Oh-My-Jobs-Master.png",
-    "category": "featured"
+    "image": "./assets/websites/Oh-My-Jobs-Master.webp",
+    "category": "featured",
+    "thumb": "./assets/websites/Oh-My-Jobs-Master.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAwCdASoYABQAPt1cqE6opKOiMBgIARAbiWkAACXZ/aFSZUGoNIAA/tRt9cg/yk1KTGqW277tiL7xYfwDfm23hoKvXQJ02fHhIXj8zqRi+oL3AAA="
   },
   {
     "name": "TRAE-AI-Creativity-Competition-Idea-Hall",
     "description": "2026 TRAE AI创造力大赛灵感库，收录大赛创意想法与项目思路，为参赛者提供灵感参考。",
     "website": "https://luoqianshi.github.io/TRAE-AI-Creativity-Competition-Idea-Hall/",
     "github": "https://github.com/luoqianshi/TRAE-AI-Creativity-Competition-Idea-Hall",
-    "image": "./assets/websites/TRAE-AICC-Idea-Hall.png",
-    "category": "others"
+    "image": "./assets/websites/TRAE-AICC-Idea-Hall.webp",
+    "category": "others",
+    "thumb": "./assets/websites/TRAE-AICC-Idea-Hall.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBACdASoYAAwAPt1apkyopSOiMAgBEBuJZQC22f/gPInlYSFdrwITGAD+0PQX9sxglEBXiw951XeqbFzj65W5shW+vCBZxBK9mu35i820cM6+a1z2Pqms8SfEhPyyyfLaIr2ZriB9uSER7AZ9g12fAAA="
   },
   {
     "name": "TRAE-AICC-Idea-Incubator",
     "description": "2026 TRAE AI创造力大赛创意孵化站，对参赛创意进行集中展示、打磨与持续迭代，陪伴灵感从想法到落地。",
     "website": "https://luoqianshi.github.io/trae-aicc-idea-incubator/",
     "github": "https://github.com/luoqianshi/trae-aicc-idea-incubator",
-    "image": "./assets/websites/TRAE-AICC-Idea-Incubator.png",
-    "category": "others"
+    "image": "./assets/websites/TRAE-AICC-Idea-Incubator.webp",
+    "category": "others",
+    "thumb": "./assets/websites/TRAE-AICC-Idea-Incubator.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoYAAwAPt1apkyopSOiMAgBEBuJZwDImCHe7KxcOeMQAP7yrU1f3A3NHX50DEn1jSd2Mj9mhz+F4HxQH3Se8cyFAAA="
   },
   {
     "name": "my-leetcode-blog",
     "description": "收集Python题解的Leet Code Hot 100题解网站，方便快速查阅学习。",
     "website": "https://luoqianshi.github.io/my-leetcode-blog/",
     "github": "https://github.com/luoqianshi/my-leetcode-blog",
-    "image": "./assets/websites/my-leetcode-blog.png",
-    "category": "knowledge"
+    "image": "./assets/websites/my-leetcode-blog.webp",
+    "category": "knowledge",
+    "thumb": "./assets/websites/my-leetcode-blog.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoYAA4APt1apkyopSOiMAgBEBuJaQAAYfcs+O8YUgAA/vOf7ecqAFHt8xNlhMmGXRjalRtSlBN3IwAA"
   },
   {
     "name": "ai-knowledge-base",
     "description": "基于《人工智能：现代方法（第4版）》的 VitePress 教学电子书，28章系统精讲，金字塔原理结构化呈现。",
     "website": "https://luoqianshi.github.io/ai-knowledge-base/",
     "github": "https://github.com/luoqianshi/ai-knowledge-base",
-    "image": "./assets/websites/ai-knowledge-base.png",
-    "category": "knowledge"
+    "image": "./assets/websites/ai-knowledge-base.webp",
+    "category": "knowledge",
+    "thumb": "./assets/websites/ai-knowledge-base.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAwCdASoYAAwAPt1apkyopSOiMAgBEBuJaQAAetDG1QAA/vCtXO8WNDvA70j+mQzcAFF1/3+upKwd8qCdbHzQ2J6DJUP1MTd8CGt7XxdRQAAA"
   },
   {
     "name": "LLM-Agent-Orange-Book",
     "description": "系统收集整理关于大语言模型智能体的定义、框架、研究问题与前沿方向的开放研究资料集。",
     "website": "https://luoqianshi.github.io/LLM-Agent-Orange-Book/",
     "github": "https://github.com/luoqianshi/LLM-Agent-Orange-Book",
-    "image": "./assets/websites/LLM-Agent-Orange-Book.png",
-    "category": "knowledge"
+    "image": "./assets/websites/LLM-Agent-Orange-Book.webp",
+    "category": "knowledge",
+    "thumb": "./assets/websites/LLM-Agent-Orange-Book.thumb.webp",
+    "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoYAAwAPt1apkyopSOiMAgBEBuJZwDDNCHfvewREAAA/vNrJYTvWGE3eXmR4Kr8RHfkLEDdBARgAA=="
   }
 ]

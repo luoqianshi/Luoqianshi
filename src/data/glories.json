@@ -43,9 +43,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-01-1.jpg",
+          "file": "A-01-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-01-1.jpg"
+          "path": "./assets/glories/A-01-1.webp",
+          "thumb": "./assets/glories/A-01-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQBACdASoYABEAPt1irU8opaSmqAqpEBuJYwDCgBEdDILgFSO4Sxu8qSvyAP7V59Z/LcV0kgyj3xRH8WuX+qq/lmnWWLGblA0o4eiYj4OT1hvj3Z4RX+1Cah7a4nM+jykAAA==",
+          "width": 1200,
+          "height": 861
         }
       ]
     },
@@ -61,9 +65,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-02-1.jpg",
+          "file": "A-02-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-02-1.jpg"
+          "path": "./assets/glories/A-02-1.webp",
+          "thumb": "./assets/glories/A-02-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAACQBACdASoYABEAPt1ip02opaOiMBgIARAbiWwAnTKEcAAakwcJrSV7+b224gAA/uf9u5hXrMQEXlU9gMjzl9vD51TJDz1BU+/Mod132zV9sRG9AHi0oD5ZSV6zcD9SmxBU9rdqQDA2NE4nSRXS9cTDSNfOpNH34jmC7zKvm7xCgcMgwLgj42Cg1J0lN6k9SdJTepNYUfz7QD5o2hIXkz4zrgAAAA==",
+          "width": 1200,
+          "height": 862
         }
       ]
     },
@@ -79,9 +87,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-03-1.jpg",
+          "file": "A-03-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-03-1.jpg"
+          "path": "./assets/glories/A-03-1.webp",
+          "thumb": "./assets/glories/A-03-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACQAwCdASoYABAAPt1cpkyopSOiMAgBEBuJYwCdACG5xUjNgy/AAP6XEG7fgoEM/Upt46oswULMpiWSYoO9TmhJdtn67EXM9yR9sWy8FTCZpIJcIWnsSgNC0OM3sLUu6oUcRRriCeZQIAAA",
+          "width": 1200,
+          "height": 819
         }
       ]
     },
@@ -97,9 +109,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-04-1.jpg",
+          "file": "A-04-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-04-1.jpg"
+          "path": "./assets/glories/A-04-1.webp",
+          "thumb": "./assets/glories/A-04-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBQCdASoYABEAPt1cpEyopSOiMAgBEBuJQBOmcdhpipb75fruIAxpDPG81MFlp68fgAD45Hm0z+cTo9f0Da+/bdnswdKd1RlCOh1rNOREPw4Ix40dBWX6eFu5QFroxag3jceSHJlQHlSy8d6jbeYA6hOtwAAA",
+          "width": 1200,
+          "height": 831
         }
       ]
     },
@@ -115,9 +131,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-05-1.jpg",
+          "file": "A-05-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-05-1.jpg"
+          "path": "./assets/glories/A-05-1.webp",
+          "thumb": "./assets/glories/A-05-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQBACdASoYABIAPtFaokyoJaMiN/VYAQAaCUAU4oHhMCX9/Sxv4wVz4kOAAP6Phd0igT5LaEsaGu6TmgELUoTO8Nd6NXmaJCeHgo/HyHs8J7H9NRiJd1pczQePFpzYa7e+0cmNgNCcsKonhTmDGxC+0Bmj1ngQOUkYAAAA",
+          "width": 1200,
+          "height": 880
         }
       ]
     },
@@ -133,9 +153,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-06-1.jpg",
+          "file": "A-06-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-06-1.jpg"
+          "path": "./assets/glories/A-06-1.webp",
+          "thumb": "./assets/glories/A-06-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoYABEAPt1ep0yopSOisAgBEBuJQBXDhDvspwNnkPlpiQLwAP7URqBA4pcBwdEueHawL/LnLbPdpBpQqh8AnsfDS8oTNcwsYwgtKE+lCfdHQPkxwDDxhogA",
+          "width": 1200,
+          "height": 865
         }
       ]
     },
@@ -151,9 +175,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-07-1.jpg",
+          "file": "A-07-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-07-1.jpg"
+          "path": "./assets/glories/A-07-1.webp",
+          "thumb": "./assets/glories/A-07-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQBACdASoYABEAPt1ip06opaMiKA1REBuJQBdgAi/Ff2h71NS0NcpmbkugAP7URZ9RkBzlQfapgQIWApoRH5TVNt8RDu8Imqj0vI5+wJ5ZOe945AvWZeB/qj9HniPpAlfv5Lhe1+eAx0igoLdAAA==",
+          "width": 1200,
+          "height": 864
         }
       ]
     },
@@ -169,9 +197,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-08-1.jpg",
+          "file": "A-08-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-08-1.jpg"
+          "path": "./assets/glories/A-08-1.webp",
+          "thumb": "./assets/glories/A-08-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoYABIAPtVapEyoJSOiN/VYAQAaiWNocEpzoN/XKbANxhWCpMAAAP7qKGZuIyU4WOZyChxh+Epj/IUgAGuA6htcuJZ6toh8/4F6U/fg5pKgvASibukC0rAq+Q4ElaszCeY0BwhCv8gZsCZgGFwAAA==",
+          "width": 1200,
+          "height": 900
         }
       ]
     },
@@ -187,9 +219,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-09-1.jpg",
+          "file": "A-09-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-09-1.jpg"
+          "path": "./assets/glories/A-09-1.webp",
+          "thumb": "./assets/glories/A-09-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQBACdASoYABIAPtVWoky/pKMisAwD8BqJYwCsACHfuCHrLGAZp2fZbL2AAP7T6piC/uNMRIZcbUP2RXc5C1qA1HkmEYlI0XIB5WB6jVryKP+VvJ8t661sP2AgAAAA",
+          "width": 1200,
+          "height": 900
         }
       ]
     },
@@ -205,9 +241,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-10-1.jpg",
+          "file": "A-10-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-10-1.jpg"
+          "path": "./assets/glories/A-10-1.webp",
+          "thumb": "./assets/glories/A-10-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABEAPt1ep06opKMiMBgIARAbiUAU6HXgHRrXhH2JPjlG+pTwAP7EY8/z8B7cCzWdTF/zqMO+TTZJtmmYaL5gxsKQIhGyL3Lr8ahOc+hTFOmvxj2e/Rk8k6e7MBXRUPhoAA==",
+          "width": 1200,
+          "height": 864
         }
       ]
     },
@@ -223,9 +263,13 @@
       "categoryEn": "Scholarships",
       "images": [
         {
-          "file": "A-11-1.jpg",
+          "file": "A-11-1.webp",
           "caption": "",
-          "path": "./assets/glories/A-11-1.jpg"
+          "path": "./assets/glories/A-11-1.webp",
+          "thumb": "./assets/glories/A-11-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoQABgAPt1apkyopSOiMAgBEBuJYwCdMoADUDO+n0GFd1vNOoAA/sUH+5y8085Mgdw9/WHSwFo8weIjUfraUy0PntGzJ+dRI0gS/0dVg/JhIsY5i7hLm6qhotyZ2BNn8aWp6PJClKuWPmb+xFGa8gAA",
+          "width": 800,
+          "height": 1200
         }
       ]
     },
@@ -241,9 +285,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-01-1.jpg",
+          "file": "B-01-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-01-1.jpg"
+          "path": "./assets/glories/B-01-1.webp",
+          "thumb": "./assets/glories/B-01-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoYABEAPt1kqFAopaOiqAqpEBuJZwDA3BI4AenRMGfvpUAA/uqZ07tfxkn0jS6DXF/Rdr+yY7AmXntOcoPHABMjbhH5TdA2zAaNV3L/banxDTWJY06yIolWVUGtWqCAAAA=",
+          "width": 1200,
+          "height": 860
         }
       ]
     },
@@ -259,9 +307,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-02-1.jpg",
+          "file": "B-02-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-02-1.jpg"
+          "path": "./assets/glories/B-02-1.webp",
+          "thumb": "./assets/glories/B-02-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwAwCdASoYABEAPt1kqE+opaOiKAqpEBuJYy+9ycsBK9Ro+CeSYAD+7i4/CjsCEZlwywXWKHGGo+oYr0IG4dFxVqTsC1QQG6QSqKbQ0CUED5SRyRoj8HZFgTUIQ3xmkE2iv1k6jdSFUEsdQZmWsGvgAAA=",
+          "width": 1200,
+          "height": 840
         }
       ]
     },
@@ -277,9 +329,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-03-1.jpg",
+          "file": "B-03-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-03-1.jpg"
+          "path": "./assets/glories/B-03-1.webp",
+          "thumb": "./assets/glories/B-03-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAACQBACdASoRABgAPt1mq1EopSOiqAgBEBuJYwCuHBEcymFKmqyaud+jXFh2DQAA/rAdhPCc6z124f8D/SWOpLtZUvnndqAED3aOKTLuEUJwD9cT9JaEi/YZCdcEj3cd93SfhYksy2Nrxo3qwMaNP5/StHKqMJSjDaupjDbhooCsHCFRZoFmp4EuzGMAAA==",
+          "width": 832,
+          "height": 1200
         }
       ]
     },
@@ -295,9 +351,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-04-1.jpg",
+          "file": "B-04-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-04-1.jpg"
+          "path": "./assets/glories/B-04-1.webp",
+          "thumb": "./assets/glories/B-04-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQBACdASoYABEAPt1aqEyopSQoMBgMARAbiWcAt7gQ81ceb4MzbUxC+rKAAP7E5wxQbx5YysvXRuX4dupEHtP75v/70FGoNF0TdNyYO+Ek8Sry5w2ThfgAAAA=",
+          "width": 1200,
+          "height": 833
         }
       ]
     },
@@ -313,9 +373,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-05-1.jpg",
+          "file": "B-05-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-05-1.jpg"
+          "path": "./assets/glories/B-05-1.webp",
+          "thumb": "./assets/glories/B-05-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABwAwCdASoYABAAPt1qqU4opqQiMAgBEBuJYwCo9A/b10W+0AAA/o3/G496pdvDdydWEHRIrFSEB3XYOWpNUJu57271MM6zjSwzt+E6q8Unbi4c8h3iZfmnw2vZ0DC98oOofWTHxpAAAA==",
+          "width": 1200,
+          "height": 802
         }
       ]
     },
@@ -331,9 +395,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-06-1.jpg",
+          "file": "B-06-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-06-1.jpg"
+          "path": "./assets/glories/B-06-1.webp",
+          "thumb": "./assets/glories/B-06-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBACdASoYABEAPt1YpE0opKMiMBgMARAbiWMAs5H/4B5uULfldJGSQS0X4XDKHnAA/pgPA9/hK6zeLroMMNBWyP8f3emgdIoI82DwasuWpUKlbGwr6zegAWOyjJdt/Icr3gkmbpa7QC8Az0VdiauulCdWFp5zQUimp3D4Dh1A5joAAAA=",
+          "width": 1200,
+          "height": 872
         }
       ]
     },
@@ -349,9 +417,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-07-1.jpg",
+          "file": "B-07-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-07-1.jpg"
+          "path": "./assets/glories/B-07-1.webp",
+          "thumb": "./assets/glories/B-07-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoYABEAPt1ipU8opauiKA1RcBuJZwDGQA3zrpksqih5wXhgAP7EIS9QQXNtSUf653Xk5adN9xc4ycNDxqOxqLUQjGlBh6GbYhCmKWSAAAA=",
+          "width": 1200,
+          "height": 857
         }
       ]
     },
@@ -367,9 +439,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-08-1.jpg",
+          "file": "B-08-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-08-1.jpg"
+          "path": "./assets/glories/B-08-1.webp",
+          "thumb": "./assets/glories/B-08-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwBACdASoYABIAPt1gqU6opSQiMBgIARAbiWUAxNgQ77Im2vmECX2WpmwWAAD+ahY3SBZ4ZkHRMXFkMRge0ws6SnN1iOW9BCA9EOfq+1P14guIxEagAAAA",
+          "width": 1200,
+          "height": 886
         }
       ]
     },
@@ -385,9 +461,13 @@
       "categoryEn": "Honorary Titles",
       "images": [
         {
-          "file": "B-09-1.jpg",
+          "file": "B-09-1.webp",
           "caption": "",
-          "path": "./assets/glories/B-09-1.jpg"
+          "path": "./assets/glories/B-09-1.webp",
+          "thumb": "./assets/glories/B-09-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABwBACdASoYABEAPt1ep06opKOiMBgIARAbiWgArC+vAOjkXhRUmTiP3wvEkAD+sCaoOhTp85RhjBl61MEBnW4CJ90nHFOve74RU/W7eijXDHof9tS3toXF8HpUZ22hpASKBDu3tfPN5Pxco99COK4Hk5VAyIn0nvvqYmQSu9601v9wC4lDlAAA",
+          "width": 1200,
+          "height": 841
         }
       ]
     },
@@ -403,9 +483,13 @@
       "categoryEn": "Competitions",
       "images": [
         {
-          "file": "C-01-1.jpg",
+          "file": "C-01-1.webp",
           "caption": "",
-          "path": "./assets/glories/C-01-1.jpg"
+          "path": "./assets/glories/C-01-1.webp",
+          "thumb": "./assets/glories/C-01-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADQBACdASoRABgAPt1mq1EopSOiqAgBEBuJZQC+e47BqfmOsBNHXzDxloR7E/U9gAD+51Q5YCODysFhCT0453r1jntQJyvGJYonaUy9Md9yftA50G6DfXIXm4ymQT9G+H/R88ItMRMYuQw43isyjNEh0mYLLTyd81WOxIZiNZUfaAxfrzrjZLkQAAA=",
+          "width": 848,
+          "height": 1200
         }
       ]
     },
@@ -421,9 +505,13 @@
       "categoryEn": "Competitions",
       "images": [
         {
-          "file": "C-02-1.jpg",
+          "file": "C-02-1.webp",
           "caption": "",
-          "path": "./assets/glories/C-02-1.jpg"
+          "path": "./assets/glories/C-02-1.webp",
+          "thumb": "./assets/glories/C-02-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBACdASoRABgAPt1mq1EopSOiqAgBEBuJZQC+SBEcfJS9tuMyKAdFj1MFx3NegAD+51Q5YCODysFhCT0453r1jntQJyvGJAB14kdkdpHv67hdyQBVEQ0D4whdulgD/0UaYBsz6wzmGC99rhk4/ighiYDzz+cfnHxzgIQ8Oe6Vw/D3CHGJF9Kd+27TKgQAAAA=",
+          "width": 848,
+          "height": 1200
         }
       ]
     },
@@ -439,9 +527,13 @@
       "categoryEn": "Competitions",
       "images": [
         {
-          "file": "C-03-1.jpg",
+          "file": "C-03-1.webp",
           "caption": "",
-          "path": "./assets/glories/C-03-1.jpg"
+          "path": "./assets/glories/C-03-1.webp",
+          "thumb": "./assets/glories/C-03-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACwAwCdASoYABIAPt1iqE+opSOiKAqpEBuJZwCsABaylLXy7ksAAAD+6j29TLeQq3wnacOmizep6/v7EGM6tij+RbU4ALfYdJmrVQhGzWWNQ8dDP9TIQ0okaPYBgrhYz9yvqJSmpXT2C78dN9ypfTTSVnbCAAAA",
+          "width": 1200,
+          "height": 900
         }
       ]
     },
@@ -457,9 +549,13 @@
       "categoryEn": "Competitions",
       "images": [
         {
-          "file": "C-04-1.jpg",
+          "file": "C-04-1.webp",
           "caption": "",
-          "path": "./assets/glories/C-04-1.jpg"
+          "path": "./assets/glories/C-04-1.webp",
+          "thumb": "./assets/glories/C-04-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwBACdASoRABgAPt1kp1AopSMiqAqpEBuJZwAu/8A204wOr8kRV9SSM0PBo3DupVAA/scY1mWNHiLUtPP//BZ5HPmn5GwyhLXu/mwPoWI3hbMxOAfJAPk2go4Ei2M6skySj61Q+239ZOsnj2K1iSyurEX+kAAA",
+          "width": 844,
+          "height": 1200
         }
       ]
     },
@@ -475,9 +571,13 @@
       "categoryEn": "Competitions",
       "images": [
         {
-          "file": "C-05-1.jpg",
+          "file": "C-05-1.webp",
           "caption": "",
-          "path": "./assets/glories/C-05-1.jpg"
+          "path": "./assets/glories/C-05-1.webp",
+          "thumb": "./assets/glories/C-05-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwBACdASoRABgAPt1mq1EopSOiqAgBEBuJZQDODf/gG4aJfcSv2aR9rMMHqlFkcwAA/q/J5/puytU/sYtAS8P2zed9YB5aZ+2uuDVJYG2Zwxyh+izAI3GVEKwh4ydRBKDtbkiLlCfzQxMl+UVDSoGo3AAAAA==",
+          "width": 857,
+          "height": 1200
         }
       ]
     },
@@ -493,14 +593,22 @@
       "categoryEn": "Research Outputs",
       "images": [
         {
-          "file": "F-01-1.jpg",
+          "file": "F-01-1.webp",
           "caption": "图 F-1-1 SSD-UAV 论文首页（2026）",
-          "path": "./assets/glories/F-01-1.jpg"
+          "path": "./assets/glories/F-01-1.webp",
+          "thumb": "./assets/glories/F-01-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoTABgAPt1eqE2opSOiKA1REBuJaQAALnVJX59uZmtfa0EJAAD+88AsSp3w0WJMaJH1J2UxvTfTMbfQKirb/6KFKWXJajlNpCU9RkqINsxe0sfAAAA=",
+          "width": 928,
+          "height": 1200
         },
         {
-          "file": "F-01-2.jpg",
+          "file": "F-01-2.webp",
           "caption": "图 F-1-2 ICCSE 2026 会议报告证书（授予 Kunhong Luo）",
-          "path": "./assets/glories/F-01-2.jpg"
+          "path": "./assets/glories/F-01-2.webp",
+          "thumb": "./assets/glories/F-01-2.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAAAQBgCdASoYABIAPt1ip02opaOiMBgIARAbiUAX/7gDJAD8AD6OlLJBT4R+QsqUwzCiZon0caiPNAAA/gsk817M1rDzUGi6kM6WQhBLYRRngGz+zKAGAPJKWwBl0CuR6ggBnr3i9BH2wFpy4HIYZNN2nz+dPJ2q1fwJwdTEIt367nvl4HRGdKv/bodQY/kzHwgELd/3kUtzmkN/TTN9RK4/Tzz+PUPoS2l4V2cEjN3Rz+VuYBaiiwgwCt1rnCUFiWJCZJCxCM1dNnQAAAA=",
+          "width": 1200,
+          "height": 891
         }
       ]
     },
@@ -516,9 +624,13 @@
       "categoryEn": "Research Outputs",
       "images": [
         {
-          "file": "F-02-1.jpg",
+          "file": "F-02-1.webp",
           "caption": "",
-          "path": "./assets/glories/F-02-1.jpg"
+          "path": "./assets/glories/F-02-1.webp",
+          "thumb": "./assets/glories/F-02-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQBACdASoTABgAPt1ap06opKMiMBgIARAbiWkAAC5prQP3mhVrUuA8fcVgRAAA/vO5yhTZZxni2Z0DfabGNnBV1FtuP67rOsPaF2iW9nrtOrJ9qtGD69s1ZEJNyn7UsOUdxtHrPFIAAA==",
+          "width": 928,
+          "height": 1200
         }
       ]
     },
@@ -534,14 +646,22 @@
       "categoryEn": "Research Outputs",
       "images": [
         {
-          "file": "F-03-1.jpg",
+          "file": "F-03-1.webp",
           "caption": "软件著作权登记证书 2026SR0633663",
-          "path": "./assets/glories/F-03-1.jpg"
+          "path": "./assets/glories/F-03-1.webp",
+          "thumb": "./assets/glories/F-03-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAADwAwCdASoSABgAPt1cqU6opKOiMBgIARAbiWMAv0n/4Ci2z5lQNFcAAP7vScVgGmclYX5TRdq1/WJNKxWv0GW6B3xGGjWkSD/p/gIRYEStqApABjdJom8VxA9AvwVSb2qP1Xv2RGTqgm1aPSHsgnsl7AAAAA==",
+          "width": 887,
+          "height": 1200
         },
         {
-          "file": "F-03-2.jpg",
+          "file": "F-03-2.webp",
           "caption": "厦门大学软件登记审批表 XDRZ202604007",
-          "path": "./assets/glories/F-03-2.jpg"
+          "path": "./assets/glories/F-03-2.webp",
+          "thumb": "./assets/glories/F-03-2.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAgCdASoRABgAPt1mqFAopaOiqAqpEBuJaQAAPlRrgAD+8NCiz9NkNOXBZZdtxn/3jpZ9+ci58gAA",
+          "width": 848,
+          "height": 1200
         }
       ]
     },
@@ -557,14 +677,22 @@
       "categoryEn": "Research Outputs",
       "images": [
         {
-          "file": "F-04-1.jpg",
+          "file": "F-04-1.webp",
           "caption": "软件著作权登记证书 2025SR1258754",
-          "path": "./assets/glories/F-04-1.jpg"
+          "path": "./assets/glories/F-04-1.webp",
+          "thumb": "./assets/glories/F-04-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABQBACdASoSABgAPt1cqU6opKOiMBgIARAbiWMAv0n/4CibyYLKURHT19ZAAP7vScVi5i+Kwvymi7Vr+sUJBmzbkTPiw4xLSIP4YKZ1LSsHH0XEBSADG6TRN4riB6Bfauk3tUfqvfsi8OSMHy2txAPZN6kBswAA",
+          "width": 887,
+          "height": 1200
         },
         {
-          "file": "F-04-2.jpg",
+          "file": "F-04-2.webp",
           "caption": "厦门大学软件登记审批表 XDRZ202505005",
-          "path": "./assets/glories/F-04-2.jpg"
+          "path": "./assets/glories/F-04-2.webp",
+          "thumb": "./assets/glories/F-04-2.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoRABgAPt1mrFCopSQiqAgBEBuJaWu4ABu44AAA/vDyiNRR0sQNUZl4iets9HdfpaAAAAAA",
+          "width": 848,
+          "height": 1200
         }
       ]
     },
@@ -580,14 +708,22 @@
       "categoryEn": "Research Outputs",
       "images": [
         {
-          "file": "F-05-1.jpg",
+          "file": "F-05-1.webp",
           "caption": "软件著作权登记证书 2025SR0075371",
-          "path": "./assets/glories/F-05-1.jpg"
+          "path": "./assets/glories/F-05-1.webp",
+          "thumb": "./assets/glories/F-05-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAADwAwCdASoSABgAPt1cqU6opKOiMBgIARAbiWMAv0n/4Ci2z5lPaoMAAP7vScVi5i+Kwvymi7Vr+sUJBmzbkTPiw4xLSIQfKTgQvfYVsYdGLNgPkAmG/z5OmlSyJyJC+5ert4U22nt8yBcYK2tuIIzede0eFAAA",
+          "width": 887,
+          "height": 1200
         },
         {
-          "file": "F-05-2.jpg",
+          "file": "F-05-2.webp",
           "caption": "厦门大学软件登记审批表 XDRZ202411013",
-          "path": "./assets/glories/F-05-2.jpg"
+          "path": "./assets/glories/F-05-2.webp",
+          "thumb": "./assets/glories/F-05-2.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoRABgAPt1mp1AopaMiqAqpEBuJaWu4ABwIFQAA/vDznrorg8MbbdpjzLGcHHOzX9AAAA==",
+          "width": 848,
+          "height": 1200
         }
       ]
     },
@@ -603,9 +739,13 @@
       "categoryEn": "Leadership & Service",
       "images": [
         {
-          "file": "D-01-1.jpg",
+          "file": "D-01-1.webp",
           "caption": "",
-          "path": "./assets/glories/D-01-1.jpg"
+          "path": "./assets/glories/D-01-1.webp",
+          "thumb": "./assets/glories/D-01-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAACwBACdASoRABgAPt1cpkyopSOiMAgBEBuJZQ6gAobAb7jXbSnUzldU1tHkUoAAAP6YDvyEWv5gnYGOaICjALWlrGm70QUOeCaIj+cvR5gXegm6WXNKXT1lWVpQGNCmVikkK99ZXkT3mo8szq26Es1SvqhthyOrTX5smOmjwSAAAA==",
+          "width": 845,
+          "height": 1200
         }
       ]
     },
@@ -621,9 +761,13 @@
       "categoryEn": "Leadership & Service",
       "images": [
         {
-          "file": "D-02-1.jpg",
+          "file": "D-02-1.webp",
           "caption": "",
-          "path": "./assets/glories/D-02-1.jpg"
+          "path": "./assets/glories/D-02-1.webp",
+          "thumb": "./assets/glories/D-02-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoSABgAPt1kp02opaOiMBgIARAbiWcAAD47cAAA/vBlgGKBwU2/P0kNMGiM8PmAAAA=",
+          "width": 883,
+          "height": 1200
         }
       ]
     },
@@ -639,9 +783,13 @@
       "categoryEn": "Leadership & Service",
       "images": [
         {
-          "file": "D-03-1.jpg",
+          "file": "D-03-1.webp",
           "caption": "",
-          "path": "./assets/glories/D-03-1.jpg"
+          "path": "./assets/glories/D-03-1.webp",
+          "thumb": "./assets/glories/D-03-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABwAwCdASoSABgAPt1ip04opaOiMBgIARAbiWUAAC51TbRYKwAA/u+0uAeL3V7QgwjMoAAA",
+          "width": 882,
+          "height": 1200
         }
       ]
     },
@@ -657,9 +805,13 @@
       "categoryEn": "Leadership & Service",
       "images": [
         {
-          "file": "D-04-1.jpg",
+          "file": "D-04-1.webp",
           "caption": "",
-          "path": "./assets/glories/D-04-1.jpg"
+          "path": "./assets/glories/D-04-1.webp",
+          "thumb": "./assets/glories/D-04-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoQABgAPt1apkyopSOiMAgBEBuJaWVuADco/SxQAP7wSe3WYRvE61HKYJTgAAAA",
+          "width": 817,
+          "height": 1200
         }
       ]
     },
@@ -675,9 +827,13 @@
       "categoryEn": "Leadership & Service",
       "images": [
         {
-          "file": "D-05-1.jpg",
+          "file": "D-05-1.webp",
           "caption": "",
-          "path": "./assets/glories/D-05-1.jpg"
+          "path": "./assets/glories/D-05-1.webp",
+          "thumb": "./assets/glories/D-05-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACwBACdASoRABgAPt1eqE4opSOiMBgIARAbiWUAsOwNbI5Mf8rUu1SbP8KJv2dMAP37olnWwRBUyiFIFAUzpSqEFE/8GYbECtx6Mw2LrGApIyCZaOD2WC2mt7jQZ16KybyBb6IGui60YEzmBZfTtn0m63PkJM7RFf1hEKh5fXAIDn8IgFIAAA==",
+          "width": 838,
+          "height": 1200
         }
       ]
     },
@@ -693,9 +849,13 @@
       "categoryEn": "Collective Honors",
       "images": [
         {
-          "file": "E-01-1.jpg",
+          "file": "E-01-1.webp",
           "caption": "",
-          "path": "./assets/glories/E-01-1.jpg"
+          "path": "./assets/glories/E-01-1.webp",
+          "thumb": "./assets/glories/E-01-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABwBQCdASoYABIAPtVYokyoJSMiMAwBABqJagCpLUE8BPFYEoxgkieCV31wqsQoCe+aDsIAAPZE/DFE+PvcQsZYOiuo3tg8cLf8IENxtIl6qu8R0oyZkjj0zz814LAjs71p2v+QskGZznH6Cp08iQqtJCOA1LwK8D67it2FYS4kHXDnaCy6IUBXirgHrJU6rwvz9KKtXLM+CcRln3ZWAYrH11Zi2vigok45CYTeQQw0bWLrQMs7HwOcXDoAAA==",
+          "width": 1200,
+          "height": 900
         }
       ]
     },
@@ -711,9 +871,13 @@
       "categoryEn": "Collective Honors",
       "images": [
         {
-          "file": "E-02-1.jpg",
+          "file": "E-02-1.webp",
           "caption": "",
-          "path": "./assets/glories/E-02-1.jpg"
+          "path": "./assets/glories/E-02-1.webp",
+          "thumb": "./assets/glories/E-02-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRpwAAABXRUJQVlA4IJAAAADQBACdASoYABEAPt1mq1EopSOiqAgBEBuJZgDBzA8/a1+M4M5g5k+vPLiwmF04YAD+sPPgYbTCEAAPDGEWfTjzuqcTPaBoeQcVcMFc2tiF1WL1LnsZdU3Lj6zIFHKLgb0n2MGQigE3WrcFhAUWlYJBbwoROK5xBfLoeA8NMWXXCnMPKHgLFT8GqgKABNWAAAA=",
+          "width": 1200,
+          "height": 842
         }
       ]
     },
@@ -729,9 +893,13 @@
       "categoryEn": "Collective Honors",
       "images": [
         {
-          "file": "E-03-1.jpg",
+          "file": "E-03-1.webp",
           "caption": "",
-          "path": "./assets/glories/E-03-1.jpg"
+          "path": "./assets/glories/E-03-1.webp",
+          "thumb": "./assets/glories/E-03-1.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABEAPt1kqU+opaOiKAqpEBuJR3ADrPV4CfWc3T8goQkoecAA/uqvZsS//reRtbIbnfSSwkAm+laoVOqAZe/3nQAypzVAEqdSJRdid5xwpuyaf+iMNbgWatWQJbzzoFkotVfVfuQIempcA3t8IAHw37G4Djj6ECKdtWlfCKWi1usMOGVBFRFACNHEhGdAAAA=",
+          "width": 1200,
+          "height": 847
         }
       ]
     },
@@ -747,9 +915,13 @@
       "categoryEn": "Community",
       "images": [
         {
-          "file": "TRAE中文社区-Build之星.png",
-          "path": "./assets/glories/TRAE中文社区-Build之星.png",
-          "caption": ""
+          "file": "TRAE中文社区-Build之星.webp",
+          "path": "./assets/glories/TRAE中文社区-Build之星.webp",
+          "caption": "",
+          "thumb": "./assets/glories/TRAE中文社区-Build之星.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoRABgAPt1iq08opSQiKAqpEBuJYwDKABETVkwMRdBNrmtM/Db3AAD+8zW4mpMlYD/Q56Wa85urhaCX2cMTHc2IQABbi6APGPr6otjHf3AUm4qi3iM8Zaf2ZfZExim7D0S1jp8wjXScJTdLh07i8AAA",
+          "width": 810,
+          "height": 1125
         }
       ]
     },
@@ -765,9 +937,13 @@
       "categoryEn": "Community",
       "images": [
         {
-          "file": "TRAE中文社区-活力之星.png",
-          "path": "./assets/glories/TRAE中文社区-活力之星.png",
-          "caption": ""
+          "file": "TRAE中文社区-活力之星.webp",
+          "path": "./assets/glories/TRAE中文社区-活力之星.webp",
+          "caption": "",
+          "thumb": "./assets/glories/TRAE中文社区-活力之星.thumb.webp",
+          "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoRABgAPt1iqk8opSOiKAqpEBuJYwDKABF9nMqOuPEERZtq9FgA/vM1uJqOIg2ePtrDrNs3KE+kHg7AQMgDE83mG/DcQDC3c2JAbPnefSf3COF+J1qeFaiuPw8yU8YDRMR544I6Uegq0ZcQ54W1NAAA",
+          "width": 810,
+          "height": 1125
         }
       ]
     }

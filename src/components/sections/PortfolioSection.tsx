@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import FadeIn from '../ui/FadeIn'
+import Lightbox, { type LightboxImage } from '../ui/Lightbox'
+import ProgressiveImage from '../ui/ProgressiveImage'
 import SectionTitle from '../ui/SectionTitle'
 import portfolioData from '../../data/portfolio.json'
 import type { PortfolioItem } from '../../types'
@@ -15,7 +17,7 @@ interface CompactSectionProps {
   title: string
   subtitle: string
   items: PortfolioItem[]
-  onPreview: (image: string) => void
+  onPreview: (project: PortfolioItem) => void
 }
 
 /** 紧凑板块：小图表格窗格统一展示截图，下方文字列出名称+简介+链接 */
@@ -40,18 +42,16 @@ function CompactSection({ id, title, subtitle, items, onPreview }: CompactSectio
             <button
               key={project.name}
               type="button"
-              onClick={() => onPreview(project.image)}
+              onClick={() => onPreview(project)}
               aria-label={`放大查看 ${project.name} 截图`}
               className="group block h-28 md:h-32 rounded-md overflow-hidden border border-paper-border bg-paper-card hover:border-paper-link/40 transition-colors duration-300"
             >
-              <img
-                src={project.image}
+              <ProgressiveImage
+                src={project.thumb ?? project.image}
+                lqip={project.lqip}
                 alt={project.name}
-                className="w-full h-full object-cover object-top group-hover:scale-[1.05] transition-transform duration-300"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement
-                  target.style.display = 'none'
-                }}
+                className="h-full w-full"
+                imgClassName="object-cover object-top group-hover:scale-[1.05] transition-transform duration-300"
               />
             </button>
           ))}
@@ -96,7 +96,16 @@ function CompactSection({ id, title, subtitle, items, onPreview }: CompactSectio
 }
 
 export default function PortfolioSection() {
-  const [active, setActive] = useState<string | null>(null)
+  const [active, setActive] = useState<LightboxImage | null>(null)
+
+  const openPreview = (project: PortfolioItem) =>
+    setActive({
+      path: project.image,
+      thumb: project.thumb,
+      caption: '',
+      label: project.name,
+    })
+
   return (
     <>
       {/* 主打作品 */}
@@ -117,18 +126,16 @@ export default function PortfolioSection() {
                   {project.image ? (
                     <button
                       type="button"
-                      onClick={() => setActive(project.image!)}
+                      onClick={() => openPreview(project)}
                       className="block w-full h-full text-left"
                       aria-label={`放大查看 ${project.name} 截图`}
                     >
-                      <img
-                        src={project.image}
+                      <ProgressiveImage
+                        src={project.thumb ?? project.image}
+                        lqip={project.lqip}
                         alt={project.name}
-                        className="w-full h-full object-cover group-hover:scale-[1.05] transition-transform duration-300"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement
-                          target.style.display = 'none'
-                        }}
+                        className="h-full w-full"
+                        imgClassName="object-cover group-hover:scale-[1.05] transition-transform duration-300"
                       />
                     </button>
                   ) : (
@@ -182,7 +189,7 @@ export default function PortfolioSection() {
         title="Others"
         subtitle="其它作品"
         items={others}
-        onPreview={setActive}
+        onPreview={openPreview}
       />
 
       {/* 个人知识库 */}
@@ -191,30 +198,17 @@ export default function PortfolioSection() {
         title="Knowledge Base"
         subtitle="个人知识库"
         items={knowledge}
-        onPreview={setActive}
+        onPreview={openPreview}
       />
 
-      {/* 图片放大查看（点击截图打开原图，模糊背景遮罩） */}
+      {/* 图片放大查看：缩略图先占位，原图加载完成后淡入 */}
       {active && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 cursor-zoom-out"
-          onClick={() => setActive(null)}
-        >
-          <button
-            type="button"
-            onClick={() => setActive(null)}
-            aria-label="关闭预览"
-            className="absolute top-4 right-4 z-[60] flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-paper-text text-2xl leading-none shadow-lg hover:bg-white transition-colors"
-          >
-            &times;
-          </button>
-          <img
-            src={active}
-            alt="作品截图"
-            className="max-w-full max-h-full rounded-lg shadow-2xl object-contain"
-            onClick={(e) => e.stopPropagation()}
-          />
-        </div>
+        <Lightbox
+          images={[active]}
+          index={0}
+          onClose={() => setActive(null)}
+          onIndexChange={() => {}}
+        />
       )}
     </>
   )
