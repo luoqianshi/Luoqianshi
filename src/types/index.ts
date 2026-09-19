@@ -19,10 +19,37 @@ export interface PortfolioItem {
   tags?: string[];
 }
 
-export interface AwardItem {
+export interface GloryImage {
+  file: string;
+  path: string;
+  caption: string;
+}
+
+export interface GloryItem {
+  id: string;
   title: string;
-  organization: string;
-  category: string;
+  level: string;
+  levelClass: string;
+  meta: string;
+  org: string;
   date: string;
-  image: string;
+  categoryZh: string;
+  categoryEn: string;
+  images: GloryImage[];
+}
+
+export interface GloryCategory {
+  zh: string;
+  en: string;
+}
+
+export interface GloryData {
+  source: string;
+  categories: GloryCategory[];
+  items: GloryItem[];
+  summary: {
+    total: number;
+    period: string;
+    schools: string;
+  };
 }

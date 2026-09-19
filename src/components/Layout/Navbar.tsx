@@ -6,7 +6,6 @@ const sectionAnchors = [
   { label: 'Products', id: 'portfolio' },
   { label: 'Others', id: 'others' },
   { label: 'Knowledge', id: 'knowledge' },
-  { label: 'Awards', id: 'awards' },
 ]
 
 export default function Navbar() {
@@ -14,6 +13,7 @@ export default function Navbar() {
   const navigate = useNavigate()
   const [scrolled, setScrolled] = useState(false)
   const isHome = location.pathname === '/'
+  const isAwards = location.pathname === '/awards'
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
@@ -30,7 +30,6 @@ export default function Navbar() {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } else {
       navigate('/')
-      window.scrollTo({ top: 0 })
     }
   }
 
@@ -65,6 +64,22 @@ export default function Navbar() {
                 {item.label}
               </button>
             ))}
+          {!isHome && (
+            <Link
+              to="/"
+              className="text-sm text-paper-muted hover:text-paper-text transition-colors"
+            >
+              Home
+            </Link>
+          )}
+          <Link
+            to="/awards"
+            className={`text-sm transition-colors ${
+              isAwards ? 'text-paper-text' : 'text-paper-muted hover:text-paper-text'
+            }`}
+          >
+            Awards
+          </Link>
         </div>
       </nav>
     </header>

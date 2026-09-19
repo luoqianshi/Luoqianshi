@@ -1,0 +1,780 @@
+{
+  "source": "骆锟宏-厦门大学-奖励与荣誉-支撑材料（精炼版）.html",
+  "categories": [
+    {
+      "zh": "奖学金与资助",
+      "en": "Scholarships"
+    },
+    {
+      "zh": "荣誉称号",
+      "en": "Honorary Titles"
+    },
+    {
+      "zh": "学科竞赛",
+      "en": "Competitions"
+    },
+    {
+      "zh": "科研成果（论文与软件著作权）",
+      "en": "Research Outputs"
+    },
+    {
+      "zh": "学生干部任职与培训",
+      "en": "Leadership & Service"
+    },
+    {
+      "zh": "集体荣誉",
+      "en": "Collective Honors"
+    },
+    {
+      "zh": "社区与其他荣誉",
+      "en": "Community"
+    }
+  ],
+  "items": [
+    {
+      "id": "A-01",
+      "title": "本科生国家奖学金",
+      "level": "国家级",
+      "levelClass": "lv-nat",
+      "meta": "中华人民共和国教育部 · 2022 年 12 月",
+      "org": "中华人民共和国教育部",
+      "date": "2022 年 12 月",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-01-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-01-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-02",
+      "title": "厦门市陈嘉庚教育基金会奖学金",
+      "level": "市级",
+      "levelClass": "lv-city",
+      "meta": "厦门市陈嘉庚教育基金会 · 2021 年 10 月 31 日",
+      "org": "厦门市陈嘉庚教育基金会",
+      "date": "2021 年 10 月 31 日",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-02-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-02-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-03",
+      "title": "2023—2024 学年第二学期 专业一等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2024 年 6 月 20 日",
+      "org": "集美大学",
+      "date": "2024 年 6 月 20 日",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-03-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-03-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-04",
+      "title": "2023—2024 学年第一学期 专业一等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2024 年 4 月 19 日",
+      "org": "集美大学",
+      "date": "2024 年 4 月 19 日",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-04-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-04-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-05",
+      "title": "2022—2023 学年第二学期 专业二等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2023 年 11 月 22 日",
+      "org": "集美大学",
+      "date": "2023 年 11 月 22 日",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-05-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-05-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-06",
+      "title": "2022—2023 学年第一学期 专业一等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2023 年 4 月",
+      "org": "集美大学",
+      "date": "2023 年 4 月",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-06-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-06-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-07",
+      "title": "2021—2022 学年第二学期 专业一等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2022 年 11 月",
+      "org": "集美大学",
+      "date": "2022 年 11 月",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-07-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-07-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-08",
+      "title": "2021—2022 学年第一学期 专业一等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2022 年 5 月",
+      "org": "集美大学",
+      "date": "2022 年 5 月",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-08-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-08-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-09",
+      "title": "2020—2021 学年第二学期 专业二等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2021 年 11 月",
+      "org": "集美大学",
+      "date": "2021 年 11 月",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-09-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-09-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-10",
+      "title": "2020—2021 学年第一学期 专业一等奖学金",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2021 年 5 月",
+      "org": "集美大学",
+      "date": "2021 年 5 月",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-10-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-10-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "A-11",
+      "title": "第八届计算机校友基金奖学金",
+      "level": "院级",
+      "levelClass": "lv-col",
+      "meta": "集美大学计算机工程学院 · 2023 年 11 月 18 日",
+      "org": "集美大学计算机工程学院",
+      "date": "2023 年 11 月 18 日",
+      "categoryZh": "奖学金与资助",
+      "categoryEn": "Scholarships",
+      "images": [
+        {
+          "file": "A-11-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/A-11-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-01",
+      "title": "厦门大学“优秀共青团员”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "共青团厦门大学委员会 · 2026 年 5 月 4 日",
+      "org": "共青团厦门大学委员会",
+      "date": "2026 年 5 月 4 日",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-01-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-01-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-02",
+      "title": "厦门大学“三好学生”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "厦门大学 · 2025 年 9 月",
+      "org": "厦门大学",
+      "date": "2025 年 9 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-02-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-02-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-03",
+      "title": "集美大学 2024 届“优秀毕业生”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2024 年 6 月",
+      "org": "集美大学",
+      "date": "2024 年 6 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-03-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-03-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-04",
+      "title": "集美大学“优秀学生干部”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2023 年 3 月",
+      "org": "集美大学",
+      "date": "2023 年 3 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-04-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-04-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-05",
+      "title": "集美大学“学子之星”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2023 年 3 月",
+      "org": "集美大学",
+      "date": "2023 年 3 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-05-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-05-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-06",
+      "title": "集美大学“优秀共青团员”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "共青团集美大学委员会 · 2022 年 4 月",
+      "org": "共青团集美大学委员会",
+      "date": "2022 年 4 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-06-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-06-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-07",
+      "title": "集美大学“三好学生”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2022 年 3 月",
+      "org": "集美大学",
+      "date": "2022 年 3 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-07-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-07-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-08",
+      "title": "集美大学 2020 年新生军训“优秀学员”",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2020 年 10 月",
+      "org": "集美大学",
+      "date": "2020 年 10 月",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-08-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-08-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "B-09",
+      "title": "集美大学计算机工程学院第十七届“十佳歌手”",
+      "level": "院级",
+      "levelClass": "lv-col",
+      "meta": "共青团集美大学计算机工程学院委员会 · 2021 年 6 月 14 日",
+      "org": "共青团集美大学计算机工程学院委员会",
+      "date": "2021 年 6 月 14 日",
+      "categoryZh": "荣誉称号",
+      "categoryEn": "Honorary Titles",
+      "images": [
+        {
+          "file": "B-09-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/B-09-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "C-01",
+      "title": "第十五届蓝桥杯全国总决赛 Python 程序设计大学B组 优秀奖",
+      "level": "国家级",
+      "levelClass": "lv-nat",
+      "meta": "工业和信息化部人才交流中心、蓝桥杯大赛组委会 · 2024 年 6 月 2 日",
+      "org": "工业和信息化部人才交流中心、蓝桥杯大赛组委会",
+      "date": "2024 年 6 月 2 日",
+      "categoryZh": "学科竞赛",
+      "categoryEn": "Competitions",
+      "images": [
+        {
+          "file": "C-01-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/C-01-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "C-02",
+      "title": "第十五届蓝桥杯福建赛区 Python 程序设计大学B组 一等奖",
+      "level": "省级",
+      "levelClass": "lv-pro",
+      "meta": "工业和信息化部人才交流中心、蓝桥杯大赛组委会 · 2024 年 4 月 29 日",
+      "org": "工业和信息化部人才交流中心、蓝桥杯大赛组委会",
+      "date": "2024 年 4 月 29 日",
+      "categoryZh": "学科竞赛",
+      "categoryEn": "Competitions",
+      "images": [
+        {
+          "file": "C-02-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/C-02-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "C-03",
+      "title": "集美大学第六季“万‘马’奔腾”知识竞赛 优胜奖",
+      "level": "校级",
+      "levelClass": "lv-sch",
+      "meta": "集美大学 · 2022 年 5 月",
+      "org": "集美大学",
+      "date": "2022 年 5 月",
+      "categoryZh": "学科竞赛",
+      "categoryEn": "Competitions",
+      "images": [
+        {
+          "file": "C-03-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/C-03-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "C-04",
+      "title": "“华为昇腾集美大学罗普特人工智能暑期训练营”竞赛活动 个人三等奖",
+      "level": "院级",
+      "levelClass": "lv-col",
+      "meta": "集美大学计算机工程学院 · 2023 年 7 月 21 日",
+      "org": "集美大学计算机工程学院",
+      "date": "2023 年 7 月 21 日",
+      "categoryZh": "学科竞赛",
+      "categoryEn": "Competitions",
+      "images": [
+        {
+          "file": "C-04-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/C-04-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "C-05",
+      "title": "“华为昇腾集美大学罗普特人工智能暑期训练营”竞赛活动 团体银奖",
+      "level": "院级",
+      "levelClass": "lv-col",
+      "meta": "集美大学计算机工程学院 · 2023 年 7 月 21 日",
+      "org": "集美大学计算机工程学院",
+      "date": "2023 年 7 月 21 日",
+      "categoryZh": "学科竞赛",
+      "categoryEn": "Competitions",
+      "images": [
+        {
+          "file": "C-05-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/C-05-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F-01",
+      "title": "会议论文：SSD-UAV: A Multi-Scale Dataset for Field Sugarcane Seedling Detection in UAV Imagery",
+      "level": "国际会议",
+      "levelClass": "lv-intl",
+      "meta": "2026 IEEE 第 20 届国际计算机科学与教育会议（ICCSE 2026） · 2026.07",
+      "org": "2026 IEEE 第 20 届国际计算机科学与教育会议（ICCSE 2026）",
+      "date": "2026.07",
+      "categoryZh": "科研成果（论文与软件著作权）",
+      "categoryEn": "Research Outputs",
+      "images": [
+        {
+          "file": "F-01-1.jpg",
+          "caption": "图 F-1-1 SSD-UAV 论文首页（2026）",
+          "path": "./assets/glories/F-01-1.jpg"
+        },
+        {
+          "file": "F-01-2.jpg",
+          "caption": "图 F-1-2 ICCSE 2026 会议报告证书（授予 Kunhong Luo）",
+          "path": "./assets/glories/F-01-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F-02",
+      "title": "会议论文：Campus Safety: UAV-Based Autonomous Defect Detection in Minnan-Style Architecture",
+      "level": "国际会议",
+      "levelClass": "lv-intl",
+      "meta": "2026 IEEE 第 20 届控制与自动化国际会议（ICCA） · 2026.06",
+      "org": "2026 IEEE 第 20 届控制与自动化国际会议（ICCA）",
+      "date": "2026.06",
+      "categoryZh": "科研成果（论文与软件著作权）",
+      "categoryEn": "Research Outputs",
+      "images": [
+        {
+          "file": "F-02-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/F-02-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F-03",
+      "title": "计算机软件著作权：黑天鹅纪-无人机智能巡检的校园生态保育管理与监测软件 V1.0",
+      "level": "软件著作权",
+      "levelClass": "lv-ip",
+      "meta": "著作权人 厦门大学 · 2026.06.01",
+      "org": "2026SR0633663",
+      "date": "2026.06.01",
+      "categoryZh": "科研成果（论文与软件著作权）",
+      "categoryEn": "Research Outputs",
+      "images": [
+        {
+          "file": "F-03-1.jpg",
+          "caption": "软件著作权登记证书 2026SR0633663",
+          "path": "./assets/glories/F-03-1.jpg"
+        },
+        {
+          "file": "F-03-2.jpg",
+          "caption": "厦门大学软件登记审批表 XDRZ202604007",
+          "path": "./assets/glories/F-03-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F-04",
+      "title": "计算机软件著作权：大型藻类表型性状自动测量装置配套软件 V2.0",
+      "level": "软件著作权",
+      "levelClass": "lv-ip",
+      "meta": "著作权人 厦门大学 · 2025.07.15",
+      "org": "2025SR1258754",
+      "date": "2025.07.15",
+      "categoryZh": "科研成果（论文与软件著作权）",
+      "categoryEn": "Research Outputs",
+      "images": [
+        {
+          "file": "F-04-1.jpg",
+          "caption": "软件著作权登记证书 2025SR1258754",
+          "path": "./assets/glories/F-04-1.jpg"
+        },
+        {
+          "file": "F-04-2.jpg",
+          "caption": "厦门大学软件登记审批表 XDRZ202505005",
+          "path": "./assets/glories/F-04-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "F-05",
+      "title": "计算机软件著作权：大型藻类表型性状自动测量装置配套软件 V1.0",
+      "level": "软件著作权",
+      "levelClass": "lv-ip",
+      "meta": "著作权人 厦门大学 · 2025.01.13",
+      "org": "2025SR0075371",
+      "date": "2025.01.13",
+      "categoryZh": "科研成果（论文与软件著作权）",
+      "categoryEn": "Research Outputs",
+      "images": [
+        {
+          "file": "F-05-1.jpg",
+          "caption": "软件著作权登记证书 2025SR0075371",
+          "path": "./assets/glories/F-05-1.jpg"
+        },
+        {
+          "file": "F-05-2.jpg",
+          "caption": "厦门大学软件登记审批表 XDRZ202411013",
+          "path": "./assets/glories/F-05-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "D-01",
+      "title": "厦门大学航空航天学院 兼职辅导员",
+      "level": "院级",
+      "levelClass": "lv-col",
+      "meta": "共青团厦门大学航空航天学院委员会 · 2026.09",
+      "org": "共青团厦门大学航空航天学院委员会",
+      "date": "2026.09",
+      "categoryZh": "学生干部任职与培训",
+      "categoryEn": "Leadership & Service",
+      "images": [
+        {
+          "file": "D-01-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/D-01-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "D-02",
+      "title": "厦门大学航空航天学院 2024 级空天智能控制研究中心 班长",
+      "level": "任职证明",
+      "levelClass": "lv-duty",
+      "meta": "2024 年 9 月 — 2025 年 7 月（第一学年） · 厦门大学航空航天学院团委",
+      "org": "厦门大学航空航天学院团委",
+      "date": "2025.07",
+      "categoryZh": "学生干部任职与培训",
+      "categoryEn": "Leadership & Service",
+      "images": [
+        {
+          "file": "D-02-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/D-02-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "D-03",
+      "title": "厦门大学航空航天学院 2024 级空天智能控制研究中心 班长",
+      "level": "任职证明",
+      "levelClass": "lv-duty",
+      "meta": "2025 年 9 月 — 2026 年 7 月（第二学年） · 厦门大学航空航天学院团委",
+      "org": "厦门大学航空航天学院团委",
+      "date": "2026.07",
+      "categoryZh": "学生干部任职与培训",
+      "categoryEn": "Leadership & Service",
+      "images": [
+        {
+          "file": "D-03-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/D-03-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "D-04",
+      "title": "空天智能控制研究生第三党支部 宣传委员",
+      "level": "任职证明",
+      "levelClass": "lv-duty",
+      "meta": "2025 年 7 月 — 2026 年 7 月 · 中共厦门大学航空航天学院委员会",
+      "org": "中共厦门大学航空航天学院委员会",
+      "date": "2026.07.30",
+      "categoryZh": "学生干部任职与培训",
+      "categoryEn": "Leadership & Service",
+      "images": [
+        {
+          "file": "D-04-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/D-04-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "D-05",
+      "title": "集美大学计算机工程学院第十八届学生会 学研部负责人（执行部长）",
+      "level": "任职证明",
+      "levelClass": "lv-duty",
+      "meta": "聘期 2021—2022 学年 ·",
+      "org": "共青团集美大学计算机工程学院委员会",
+      "date": "2021.12",
+      "categoryZh": "学生干部任职与培训",
+      "categoryEn": "Leadership & Service",
+      "images": [
+        {
+          "file": "D-05-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/D-05-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "E-01",
+      "title": "2023—2025 年度先进党支部",
+      "level": "集体",
+      "levelClass": "lv-grp",
+      "meta": "中共厦门大学航空航天学院委员会 · 2025 年 7 月 1 日",
+      "org": "中共厦门大学航空航天学院委员会",
+      "date": "2025 年 7 月 1 日",
+      "categoryZh": "集体荣誉",
+      "categoryEn": "Collective Honors",
+      "images": [
+        {
+          "file": "E-01-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/E-01-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "E-02",
+      "title": "2025 年度“五四红旗团支部”",
+      "level": "集体",
+      "levelClass": "lv-grp",
+      "meta": "共青团厦门大学航空航天学院委员会 · 2026 年 5 月 4 日",
+      "org": "共青团厦门大学航空航天学院委员会",
+      "date": "2026 年 5 月 4 日",
+      "categoryZh": "集体荣誉",
+      "categoryEn": "Collective Honors",
+      "images": [
+        {
+          "file": "E-02-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/E-02-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "E-03",
+      "title": "“旗帜工程·党员学堂”学生党团支部展演 《错位时空》三等奖",
+      "level": "集体",
+      "levelClass": "lv-grp",
+      "meta": "中共厦门大学航空航天学院委员会 · 2024 年 12 月 6 日",
+      "org": "中共厦门大学航空航天学院委员会",
+      "date": "2024 年 12 月 6 日",
+      "categoryZh": "集体荣誉",
+      "categoryEn": "Collective Honors",
+      "images": [
+        {
+          "file": "E-03-1.jpg",
+          "caption": "",
+          "path": "./assets/glories/E-03-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "G-01",
+      "title": "Build 之星",
+      "level": "社区",
+      "levelClass": "lv-duty",
+      "meta": "TRAE 中文社区",
+      "org": "TRAE 中文社区",
+      "date": "",
+      "categoryZh": "社区与其他荣誉",
+      "categoryEn": "Community",
+      "images": [
+        {
+          "file": "TRAE中文社区-Build之星.png",
+          "path": "./assets/glories/TRAE中文社区-Build之星.png",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "G-02",
+      "title": "活力之星",
+      "level": "社区",
+      "levelClass": "lv-duty",
+      "meta": "TRAE 中文社区",
+      "org": "TRAE 中文社区",
+      "date": "",
+      "categoryZh": "社区与其他荣誉",
+      "categoryEn": "Community",
+      "images": [
+        {
+          "file": "TRAE中文社区-活力之星.png",
+          "path": "./assets/glories/TRAE中文社区-活力之星.png",
+          "caption": ""
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 38,
+    "period": "2020.10 — 2026.09",
+    "schools": "集美大学（本科）→ 厦门大学（硕士）"
+  }
+}

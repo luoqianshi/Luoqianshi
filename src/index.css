@@ -33,6 +33,30 @@
   }
 }
 
+/* 奖励等级标签：从支撑材料的等级色带迁移，降饱和以贴合纸感配色。
+   类名只出现在 data/glories.json 中，写在 @layer 外以免被 Tailwind 的内容扫描剔除。 */
+.lv {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  padding: 1px 8px;
+  font-size: 0.75rem;
+  line-height: 1.625;
+  font-weight: 500;
+}
+
+.lv-nat { background-color: #f7ece7; color: #8c3f2a; border-color: #e6d2c8; }
+.lv-pro { background-color: #f6efe1; color: #7a5c1e; border-color: #e2d5b8; }
+.lv-city { background-color: #e9f1f2; color: #2f5f66; border-color: #cfe0e2; }
+.lv-sch { background-color: #eaeef4; color: #3d5a80; border-color: #d3dbe6; }
+.lv-col { background-color: #f0efec; color: #5b5b58; border-color: #ddd9d2; }
+.lv-grp { background-color: #eaf1ea; color: #3f6142; border-color: #d2e0d3; }
+.lv-intl { background-color: #eeeaf4; color: #54447a; border-color: #d9d2e6; }
+.lv-ip { background-color: #f6efe6; color: #7a5230; border-color: #e3d6c4; }
+.lv-duty { background-color: #f1f0ee; color: #5f5f5c; border-color: #dedbd5; }
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
