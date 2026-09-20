@@ -15,7 +15,7 @@ AI Builder / AI Application Engineer
 
 一款AI Agent原生的论文管理知识库，内置支持将PDF论文一键转化为图文并茂的Markdown博客/HTML幻灯片的SKILL，并通过持续集成自动部署为在线站点，方便随时查阅。
 
-![Paper-Master](public/assets/websites/Paper-Master.png)
+![Paper-Master](public/assets/websites/Paper-Master.webp)
 
 - Website: https://luoqianshi.github.io/Paper-Master
 - GitHub: https://github.com/luoqianshi/Paper-Master
@@ -24,7 +24,7 @@ AI Builder / AI Application Engineer
 
 精美网页模板集合，沉淀可复用的前端页面设计与组件范式，助力快速搭建优雅站点。
 
-![Beautiful-Web-Template](public/assets/websites/Beautiful-Web-Template.png)
+![Beautiful-Web-Template](public/assets/websites/Beautiful-Web-Template.webp)
 
 - Website: https://luoqianshi.github.io/beautiful_web_template/
 - GitHub: https://github.com/luoqianshi/beautiful_web_template
@@ -35,7 +35,7 @@ AI Builder / AI Application Engineer
 
 2026 TRAE AI创造力大赛作品演示墙，汇集并展示各类Web类参赛作品的在线 Demo，方便一览大赛成果。
 
-![Trae-AI-Creativity-Competition-Demo-Wall](public/assets/websites/TRAE-AICC-Demo-Wall.png)
+![Trae-AI-Creativity-Competition-Demo-Wall](public/assets/websites/TRAE-AICC-Demo-Wall.webp)
 
 - Website: https://luoqianshi.github.io/trae-demo-wall/#/
 - GitHub: https://github.com/luoqianshi/trae-demo-wall
@@ -44,7 +44,7 @@ AI Builder / AI Application Engineer
 
 一款可以嵌入 AI Agent（例如 Trae）的个人秋招工作台，零依赖单文件实现，覆盖投递列表、进度看板、公司信息、邮箱收件与数据管理五大模块；在微信里把秋招推文转发给 Trae，Agent 即可自动解析并写入投递记录，配合脚本每日同步求职邮箱通知。
 
-![Oh-My-Jobs-Master](public/assets/websites/Oh-My-Jobs-Master.png)
+![Oh-My-Jobs-Master](public/assets/websites/Oh-My-Jobs-Master.webp)
 
 - Website: https://luoqianshi.github.io/Oh-My-Jobs-Master/
 - GitHub: https://github.com/luoqianshi/Oh-My-Jobs-Master
@@ -55,8 +55,8 @@ AI Builder / AI Application Engineer
 
 <table align="center">
   <tr>
-    <td align="center"><img src="public/assets/websites/TRAE-AICC-Idea-Hall.png" width="360" alt="TRAE-AI-Creativity-Competition-Idea-Hall"></td>
-    <td align="center"><img src="public/assets/websites/TRAE-AICC-Idea-Incubator.png" width="360" alt="TRAE-AICC-Idea-Incubator"></td>
+    <td align="center"><img src="public/assets/websites/TRAE-AICC-Idea-Hall.webp" width="360" alt="TRAE-AI-Creativity-Competition-Idea-Hall"></td>
+    <td align="center"><img src="public/assets/websites/TRAE-AICC-Idea-Incubator.webp" width="360" alt="TRAE-AICC-Idea-Incubator"></td>
   </tr>
 </table>
 
@@ -80,9 +80,9 @@ TRAE AI 创意大赛灵感库，收录大赛创意想法与项目思路，为参
 
 <table align="center">
   <tr>
-    <td align="center"><img src="public/assets/websites/my-leetcode-blog.png" width="240" alt="my-leetcode-blog"></td>
-    <td align="center"><img src="public/assets/websites/ai-knowledge-base.png" width="240" alt="ai-knowledge-base"></td>
-    <td align="center"><img src="public/assets/websites/LLM-Agent-Orange-Book.png" width="240" alt="LLM-Agent-Orange-Book"></td>
+    <td align="center"><img src="public/assets/websites/my-leetcode-blog.webp" width="240" alt="my-leetcode-blog"></td>
+    <td align="center"><img src="public/assets/websites/ai-knowledge-base.webp" width="240" alt="ai-knowledge-base"></td>
+    <td align="center"><img src="public/assets/websites/LLM-Agent-Orange-Book.webp" width="240" alt="LLM-Agent-Orange-Book"></td>
   </tr>
 </table>
 
