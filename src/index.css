@@ -72,82 +72,43 @@
   mix-blend-mode: multiply;
 }
 
-/* 首页 Awards 入口卡片：奖牌轻晃、星光闪烁、纸面反光扫过 */
-.awards-cta {
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+/* 首页 Awards 入口：悬停时奖牌从按钮右侧弹出并轻轻摇摆 */
+.awards-link {
+  position: relative;
 }
 
-.awards-cta:hover,
-.awards-cta:focus-visible {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(43, 43, 43, 0.08);
-}
-
-.cta-medal {
-  animation: cta-float 3.6s ease-in-out infinite;
-}
-
-.awards-cta:hover .cta-medal,
-.awards-cta:focus-visible .cta-medal {
-  animation: cta-wiggle 0.7s ease-in-out infinite;
-}
-
-.cta-spark {
+.awards-medal {
   position: absolute;
+  right: -1.75rem;
+  top: -0.4rem;
+  font-size: 1.15rem;
+  line-height: 1;
   opacity: 0;
-  font-size: 12px;
-  transition: opacity 0.3s ease;
-}
-
-.awards-cta:hover .cta-spark,
-.awards-cta:focus-visible .cta-spark {
-  animation: cta-twinkle 1.6s ease-in-out infinite;
-}
-
-.cta-shine {
-  position: absolute;
-  inset: 0;
+  transform: scale(0.2) rotate(-45deg);
+  transform-origin: 50% 0%;
   pointer-events: none;
-  background: linear-gradient(
-    100deg,
-    transparent 30%,
-    rgba(255, 255, 255, 0.55) 48%,
-    transparent 66%
-  );
-  transform: translateX(-120%);
+  transition: opacity 0.2s ease, transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-.awards-cta:hover .cta-shine,
-.awards-cta:focus-visible .cta-shine {
-  animation: cta-shine 1.5s ease-in-out;
+.awards-link:hover .awards-medal,
+.awards-link:focus-visible .awards-medal {
+  opacity: 1;
+  transform: scale(1) rotate(8deg);
+  animation: medal-swing 1.8s ease-in-out 0.5s infinite;
 }
 
-@keyframes cta-float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-4px) rotate(-4deg); }
-}
-
-@keyframes cta-wiggle {
-  0%, 100% { transform: rotate(-10deg) scale(1.06); }
-  50% { transform: rotate(10deg) scale(1.12); }
-}
-
-@keyframes cta-twinkle {
-  0%, 100% { opacity: 0; transform: scale(0.6) rotate(0deg); }
-  50% { opacity: 0.9; transform: scale(1.15) rotate(20deg); }
-}
-
-@keyframes cta-shine {
-  0% { transform: translateX(-120%); }
-  100% { transform: translateX(120%); }
+@keyframes medal-swing {
+  0%, 100% { transform: scale(1) rotate(8deg) translateY(0); }
+  25% { transform: scale(1.1) rotate(-12deg) translateY(-2px); }
+  60% { transform: scale(1) rotate(6deg) translateY(0); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cta-medal,
-  .awards-cta:hover .cta-medal,
-  .awards-cta:hover .cta-spark,
-  .awards-cta:hover .cta-shine {
+  .awards-medal,
+  .awards-link:hover .awards-medal,
+  .awards-link:focus-visible .awards-medal {
     animation: none;
+    transition: opacity 0.2s ease;
   }
 }
 

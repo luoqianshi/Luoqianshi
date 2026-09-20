@@ -79,7 +79,7 @@ export default function Awards() {
   const filters = ['全部', ...data.categories.map((c) => c.zh)]
 
   return (
-    <div className="max-w-content mx-auto px-6">
+    <div className="max-w-content mx-auto px-6 pb-16">
       <header className="scroll-mt-24 pt-32 pb-10">
         <FadeIn>
           <p className="text-xs tracking-[0.22em] uppercase text-paper-muted mb-3">
@@ -210,13 +210,6 @@ export default function Awards() {
           </div>
         </section>
       ))}
-
-      <p className="pb-16 text-xs text-paper-muted/80 border-t border-paper-border pt-6 leading-relaxed">
-        材料整理口径：分类 — 等级 — 时间；证书图片源自《{data.source.replace(/\.html$/, '')}》。
-        <br />
-        证书为个人私密材料，已转为 WebP 渐进式加载（列表用缩略图、放大时才取原图），并禁用右键另存与拖拽下载、放大视图叠加水印；
-        如需核验原件，欢迎直接与我联系。
-      </p>
 
       {active !== null && (
         <Lightbox

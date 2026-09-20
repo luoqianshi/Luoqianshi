@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import FadeIn from '../ui/FadeIn'
 import profileData from '../../data/profile.json'
 import type { ProfileData } from '../../types'
@@ -41,6 +42,24 @@ export default function ProfileSection() {
                 </a>
               ))}
             </div>
+
+            {/* Awards 入口：悬停时弹出摇摆的奖牌 */}
+            <Link
+              to="/awards"
+              aria-label="翻开证书墙，查看我的校园奖励与荣誉"
+              className="awards-link group mt-6 inline-flex items-center gap-1.5 text-sm"
+            >
+              <span className="link-paper font-medium">翻开证书墙</span>
+              <span
+                aria-hidden="true"
+                className="inline-block text-paper-link transition-transform duration-300 group-hover:translate-x-1"
+              >
+                →
+              </span>
+              <span aria-hidden="true" className="awards-medal">
+                🏅
+              </span>
+            </Link>
           </div>
 
           {/* 个人照片（右侧，较大圆角矩形展示整张照片） */}
